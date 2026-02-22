@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pricing | GeoConflictModeler</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <div class="brand"><span style="font-size:18px">🌍</span><span>GeoConflictModeler</span><span class="badge">Pricing</span></div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="parameters.html">Parameters</a>
+        <a href="login.html">Login</a>
+        <a class="btn primary" href="launch.html">Launch App</a>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="hgrid">
+        <div>
+          <h1 class="h1">Simple subscription access.</h1>
+          <p class="sub">Your subscription unlocks the full GeoConflictModeler app online. Cancel anytime.</p>
+          <div class="notice">
+            You must be logged in before subscribing. If your subscription is active, <a href="launch.html"><b>Launch App</b></a>.
+          </div>
+          <div style="height:12px"></div>
+          <div class="cta">
+            <button class="btn good" id="btn_sub">Subscribe</button>
+            <a class="btn" href="login.html">Create / Login</a>
+          </div>
+          <div id="msg" class="notice" style="display:none;margin-top:10px"></div>
+        </div>
+
+        <div class="card">
+          <h3>Plan</h3>
+          <p><b>GeoConflictModeler Pro</b></p>
+          <p style="margin-top:8px;color:var(--muted)">
+            • Unlimited runs<br>
+            • All core models (Cinematic / Dense / Integrated)<br>
+            • Synchronized chess decision layer<br>
+            • Parameter guide & updates
+          </p>
+          <div style="height:10px"></div>
+          <p style="color:rgba(255,255,255,.85)"><b>Price:</b> set in Stripe (you control this)</p>
+        </div>
+      </div>
+
+      <div style="height:14px"></div>
+      <div class="card">
+        <h3>Account status</h3>
+        <p id="status" style="margin:0;color:var(--muted)">Checking…</p>
+        <div style="height:10px"></div>
+        <div class="cta">
+          <button class="btn" id="btn_refresh">Refresh</button>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div>Contact: <a href="mailto:bessuman.academia@gmail.com"><b>bessuman.academia@gmail.com</b></a></div>
+        <div><a href="parameters.html">Parameter Guide</a></div>
+      </div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+  <script>
+    async function refresh(){
+      const el = $('status');
+      try{
+        const me = await api('/me');
+        const st = await api('/access/status');
+        el.textContent = `${me.email} • subscription: ${st.subscription_status} • active: ${st.active ? 'yes' : 'no'}`;
+      }catch(e){
+        el.textContent = 'Not logged in.';
+      }
+    }
+
+    $('btn_refresh').onclick = refresh;
+
+    $('btn_sub').onclick = async () => {
+      show($('msg'), false);
+      try{
+        const out = await api('/billing/create-checkout', {method:'POST'});
+        location.href = out.url;
+      }catch(e){
+        $('msg').textContent = e.message;
+        show($('msg'), true);
+      }
+    };
+
+    refresh();
+  </script>
+</body>
+</html>

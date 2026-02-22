@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parameters | GeoConflictModeler</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .doc h2{margin:18px 0 10px;font-size:18px}
+    .doc h3{margin:16px 0 8px;font-size:14px;letter-spacing:.18px;text-transform:uppercase;color:rgba(255,255,255,.86)}
+    .doc p, .doc li{color:var(--muted);line-height:1.55;font-size:14px}
+    .doc code{background:rgba(0,0,0,.35);padding:2px 6px;border-radius:8px;border:1px solid rgba(255,255,255,.10)}
+    .table{width:100%;border-collapse:collapse;overflow:hidden;border-radius:14px;border:1px solid rgba(255,255,255,.10)}
+    .table th,.table td{padding:10px 10px;border-bottom:1px solid rgba(255,255,255,.08);vertical-align:top;font-size:13px}
+    .table th{color:rgba(255,255,255,.86);text-align:left;background:rgba(255,255,255,.04)}
+    .table td{color:rgba(255,255,255,.72)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <div class="brand"><span style="font-size:18px">🌍</span><span>GeoConflictModeler</span><span class="badge">Parameter Guide</span></div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="login.html">Login</a>
+        <a class="btn primary" href="launch.html">Launch App</a>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="doc">
+        <h1 class="h1" style="font-size:34px">Parameter Guide</h1>
+        <p class="sub">What each control means, how it affects the Monte Carlo adjudicator, and how chess influences (without overriding) outcomes.</p>
+
+        <h2>Core philosophy</h2>
+        <ul>
+          <li><b>Monte Carlo = adjudicator (truth).</b> Probabilities are derived from stochastic trials.</li>
+          <li><b>Chess = decision layer (influencer).</b> Chess evaluation can optionally nudge Blue-vs-Red odds slightly, bounded by draw probability.</li>
+          <li><b>Battle Losses table = cinematic run.</b> A single storyline is used for concrete totals and “today” deltas.</li>
+        </ul>
+
+        <h2>Scenario Builder controls</h2>
+        <table class="table">
+          <tr><th>Control</th><th>What it does</th><th>Notes</th></tr>
+          <tr><td><b>Year</b></td><td>Sets the baseline year used for tech/readiness assumptions and trend projections.</td><td>Later years can amplify future resources / modernization assumptions.</td></tr>
+          <tr><td><b>War Mode</b></td><td>Global intensity posture (limited vs total).</td><td>Used as a multiplier in the campaign engine.</td></tr>
+          <tr><td><b>Intensity</b></td><td>Skirmish / Campaign / All-out scaling for tempo and loss rates.</td><td>Also influences how fast the duel feels (not UI, internal pacing).</td></tr>
+          <tr><td><b>Sim Horizon (days)</b></td><td>Max days simulated per run.</td><td>Higher horizons allow long attrition outcomes.</td></tr>
+          <tr><td><b>Allow nuclear escalation</b></td><td>Enables rare macro-shock escalation events.</td><td>For realism flavor; still a toy model.</td></tr>
+          <tr><td><b>Core Model</b></td><td>Pick the simulation engine style.</td><td><b>Cinematic</b> (fast), <b>Dense</b> (latent dynamics), <b>Integrated</b> (4-engine).</td></tr>
+          <tr><td><b>Scenario Type</b></td><td>Biases theater mix and domain emphasis.</td><td>Invasion/blockade types push more sea/air interactions.</td></tr>
+          <tr><td><b>Auto-use Integrated…</b></td><td>For invasion/blockade, automatically uses Integrated under the hood.</td><td>UI stays the same; just a smarter backend choice.</td></tr>
+          <tr><td><b>Battleground</b></td><td>Theater anchor country.</td><td>Used for geography-aware distance/friction effects.</td></tr>
+          <tr><td><b>Alliances</b></td><td>Blue vs Red country lists.</td><td>Neutral supporters add weight without being frontline.</td></tr>
+          <tr><td><b>Sanctions sliders</b></td><td>Economic friction applied to each side.</td><td>Reduces sustainment, readiness, and long-run output.</td></tr>
+        </table>
+
+        <h2>Monte Carlo settings</h2>
+        <table class="table">
+          <tr><th>Control</th><th>Meaning</th><th>Tradeoff</th></tr>
+          <tr><td><b>Iterations</b></td><td>Number of stochastic trials.</td><td>More iterations = smoother probabilities, slower runtime.</td></tr>
+          <tr><td><b>RNG Seed</b></td><td>Reproducibility key.</td><td>Same seed + same inputs = consistent results.</td></tr>
+        </table>
+
+        <h2>Duel feel (Chess panel)</h2>
+        <table class="table">
+          <tr><th>Control</th><th>Meaning</th><th>Notes</th></tr>
+          <tr><td><b>Duel plies</b></td><td>How many half-moves the chess duel plays during one run.</td><td>Purely cinematic pacing; does not change MC itself.</td></tr>
+          <tr><td><b>Duel depth</b></td><td>Internal strength tier for the bundled UCI chess engine.</td><td>Higher = stronger but slower. Still bounded so it won’t freeze the UI.</td></tr>
+        </table>
+
+        <h2>Mixed-theater override (advanced)</h2>
+        <p>If you enable the theater mix override, you can force how the model allocates emphasis across air/sea/land. This is helpful for “what-if” explorations.</p>
+
+        <h2>Understanding outputs</h2>
+        <ul>
+          <li><b>Win mix</b> shows Blue/Red/Draw probabilities. Fresh sessions start at <code>50/50/0</code> until you run.</li>
+          <li><b>Phase separation</b> visualizes uncertainty: strong winner + low draw = clean layers; high draw keeps mixing.</li>
+          <li><b>Battle Losses</b> are based on one cinematic storyline (not the percentile bands).</li>
+        </ul>
+
+        <h2>Bring your own data (coming soon)</h2>
+        <p>
+          Upcoming update will let users upload their own national inventories, budgets, doctrine weights, and geographic friction parameters.
+          This will enable custom conflict worlds and better calibration.
+        </p>
+
+        <div class="footer">
+          <div>Contact: <a href="mailto:bessuman.academia@gmail.com"><b>bessuman.academia@gmail.com</b></a></div>
+          <div>Educational toy model, not a real-world predictor.</div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

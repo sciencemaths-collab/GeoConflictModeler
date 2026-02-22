@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login | GeoConflictModeler</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <div class="brand"><span style="font-size:18px">🌍</span><span>GeoConflictModeler</span><span class="badge">Account</span></div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="parameters.html">Parameters</a>
+        <a href="pricing.html">Pricing</a>
+        <a class="btn primary" href="launch.html">Launch App</a>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="hgrid">
+        <div class="card">
+          <h3>Login</h3>
+          <p>Use your email and password. Your token is stored locally in your browser.</p>
+          <div class="form">
+            <input class="input" id="login_email" type="email" placeholder="Email" />
+            <input class="input" id="login_pw" type="password" placeholder="Password" />
+            <button class="btn good" id="btn_login">Login</button>
+          </div>
+          <div id="login_msg" class="notice" style="display:none;margin-top:10px"></div>
+        </div>
+
+        <div class="card">
+          <h3>Create account</h3>
+          <p>Minimum 8-character password. (Email verification can be added later.)</p>
+          <div class="form">
+            <input class="input" id="reg_email" type="email" placeholder="Email" />
+            <input class="input" id="reg_pw" type="password" placeholder="Password" />
+            <button class="btn primary" id="btn_register">Register</button>
+          </div>
+          <div id="reg_msg" class="notice" style="display:none;margin-top:10px"></div>
+        </div>
+      </div>
+
+      <div style="height:14px"></div>
+      <div class="card">
+        <h3>Session</h3>
+        <p id="sess" style="margin:0;color:var(--muted)">Checking…</p>
+        <div style="height:10px"></div>
+        <div class="cta">
+          <button class="btn" id="btn_me">Refresh status</button>
+          <button class="btn danger" id="btn_logout">Logout</button>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div>Contact: <a href="mailto:bessuman.academia@gmail.com"><b>bessuman.academia@gmail.com</b></a></div>
+        <div><a href="parameters.html">Parameter Guide</a></div>
+      </div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+  <script>
+    async function refreshMe(){
+      const el = $('sess');
+      try{
+        const me = await api('/me');
+        el.textContent = `Logged in as ${me.email} • subscription: ${me.subscription_status || 'none'}`;
+      }catch(e){
+        el.textContent = 'Not logged in.';
+      }
+    }
+
+    $('btn_login').onclick = async () => {
+      show($('login_msg'), false);
+      try{
+        const out = await api('/auth/login', {method:'POST', body: JSON.stringify({email: $('login_email').value, password: $('login_pw').value})});
+        setAuthToken(out.token);
+        $('login_msg').textContent = 'Logged in ✔';
+        show($('login_msg'), true);
+        await refreshMe();
+      }catch(e){
+        $('login_msg').textContent = e.message;
+        show($('login_msg'), true);
+      }
+    };
+
+    $('btn_register').onclick = async () => {
+      show($('reg_msg'), false);
+      try{
+        const out = await api('/auth/register', {method:'POST', body: JSON.stringify({email: $('reg_email').value, password: $('reg_pw').value})});
+        setAuthToken(out.token);
+        $('reg_msg').textContent = 'Account created ✔';
+        show($('reg_msg'), true);
+        await refreshMe();
+      }catch(e){
+        $('reg_msg').textContent = e.message;
+        show($('reg_msg'), true);
+      }
+    };
+
+    $('btn_me').onclick = refreshMe;
+    $('btn_logout').onclick = () => { clearAuth(); refreshMe(); };
+
+    refreshMe();
+  </script>
+</body>
+</html>

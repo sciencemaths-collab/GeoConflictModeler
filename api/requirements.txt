@@ -1,0 +1,8 @@
+fastapi>=0.110
+uvicorn[standard]>=0.27
+stripe>=7.0
+SQLAlchemy>=2.0
+psycopg2-binary>=2.9
+passlib[bcrypt]>=1.7
+PyJWT>=2.8
+python-multipart>=0.0.9

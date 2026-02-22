@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Success | GeoConflictModeler</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <div class="brand"><span style="font-size:18px">🌍</span><span>GeoConflictModeler</span><span class="badge">Payment</span></div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="launch.html">Launch App</a>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="card">
+        <h3>Payment received</h3>
+        <p id="msg" style="margin:0;color:var(--muted)">Checking subscription…</p>
+        <div style="height:12px"></div>
+        <div class="cta">
+          <a class="btn good" href="launch.html">▶ Launch App</a>
+          <a class="btn" href="pricing.html">Back to Pricing</a>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div>Contact: <a href="mailto:bessuman.academia@gmail.com"><b>bessuman.academia@gmail.com</b></a></div>
+      </div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+  <script>
+    (async ()=>{
+      const el = $('msg');
+      try{
+        const st = await api('/access/status');
+        el.textContent = st.active ? 'Subscription is active ✔' : `Subscription status: ${st.subscription_status}`;
+      }catch(e){
+        el.textContent = e.message;
+      }
+    })();
+  </script>
+</body>
+</html>

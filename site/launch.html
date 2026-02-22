@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Launch | GeoConflictModeler</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <div class="brand"><span style="font-size:18px">🌍</span><span>GeoConflictModeler</span><span class="badge">Launch</span></div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="parameters.html">Parameters</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="login.html">Login</a>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="hgrid">
+        <div>
+          <h1 class="h1">Launching the app…</h1>
+          <p class="sub">We’ll verify your subscription and send you to the GeoConflictModeler simulator.</p>
+          <div id="msg" class="notice">Working…</div>
+          <div style="height:12px"></div>
+          <div class="cta">
+            <button class="btn" id="btn_try">Try again</button>
+            <a class="btn" href="pricing.html">Subscribe</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Tip</h3>
+          <p>If this page says “Subscription required”, go to <a href="pricing.html"><b>Pricing</b></a> after you log in.</p>
+          <div style="height:10px"></div>
+          <p style="color:var(--muted)">If you’re the admin deploying for the first time, set <b>APP_BASE_URL</b> on the API service to your Streamlit domain.</p>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div>Contact: <a href="mailto:bessuman.academia@gmail.com"><b>bessuman.academia@gmail.com</b></a></div>
+        <div><a href="parameters.html">Parameter Guide</a></div>
+      </div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+  <script>
+    async function launch(){
+      const m = $('msg');
+      m.textContent = 'Checking access…';
+      try{
+        const out = await api('/access/mint', {method:'POST'});
+        m.textContent = 'Redirecting…';
+        location.href = out.app_url;
+      }catch(e){
+        m.textContent = e.message;
+      }
+    }
+    $('btn_try').onclick = launch;
+    launch();
+  </script>
+</body>
+</html>

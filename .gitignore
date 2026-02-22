@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Data (large)
+app/data/*.xlsx
+app/data/*.json
+app/data/*.csv
+
+# Secrets
+.env
+.streamlit/secrets.toml
