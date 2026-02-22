@@ -6,7 +6,6 @@ from __future__ import annotations
 import os
 import json
 import math
-import hashlib
 import time
 import sys
 import subprocess
@@ -25,71 +24,6 @@ from engine import (
     allocate_losses_to_countries,
     dense_default_cfg, fit_dense_cfg, fit_integrated_cfg,
 )
-
-
-# ----------------------------
-# Optional paid gate (no UI layout change)
-# - Enabled only when GCM_REQUIRE_PAID=1
-# - Expects ?token=<short-lived> minted by the API
-# ----------------------------
-
-def _paid_gate():
-    if os.environ.get('GCM_REQUIRE_PAID', '0').strip() != '1':
-        return
-
-    api_base = os.environ.get('GCM_API_BASE_URL', '').strip().rstrip('/')
-    if not api_base:
-        st.error('Access gate is enabled but GCM_API_BASE_URL is not configured.')
-        st.stop()
-
-    qp = st.query_params
-    tok = qp.get('token', '')
-    if isinstance(tok, list):
-        tok = tok[0] if tok else ''
-    tok = (tok or '').strip()
-
-    if not tok:
-        st.error('Access required. Please log in and launch from the GeoConflictModeler site.')
-        st.stop()
-
-    # Verify token via API using stdlib (avoids extra deps)
-    import urllib.request
-    import urllib.parse
-    try:
-        url = api_base + '/access/verify?' + urllib.parse.urlencode({'token': tok})
-        with urllib.request.urlopen(url, timeout=6) as resp:
-            if getattr(resp, 'status', 200) != 200:
-                raise RuntimeError('verify failed')
-    except Exception:
-        st.error('Access denied or expired token. Please relaunch from the GeoConflictModeler site.')
-        st.stop()
-
-_paid_gate()
-
-
-
-# ----------------------------
-# Scenario signature (no UI): prevents stale win-mix on fresh load/param change
-# ----------------------------
-
-def _scenario_signature() -> str:
-    keys = [
-        'year','mode','intensity','max_days','nukes_allowed','core_model','scenario_type','auto_integrated',
-        'battleground','blue_names','red_names','neutral_names','support_blue','support_red',
-        'sanctions_blue','sanctions_red','iters','seed',
-        'override_mix','mix_blend','mix_air','mix_sea','mix_land',
-        'dense_embed_strength','dense_fronts','dense_air_mult','dense_sea_mult','dense_land_mult','dense_missile_mult','dense_contact_mult','dense_civ_mult','dense_commit_mult',
-        'ic_blue_detection_prob','ic_missile_fraction_to_ships','ic_scuttle_day','ic_unsupplied_loss','ic_k_blue_air','ic_k_red_air','ic_k_blue_land','ic_k_red_land','ic_enable_orders','ic_aggression_blue','ic_aggression_red','ic_use_roll_hits',
-    ]
-    obj = {}
-    for k in keys:
-        v = st.session_state.get(k)
-        if isinstance(v, list):
-            obj[k] = sorted([str(x) for x in v])
-        else:
-            obj[k] = v
-    blob = json.dumps(obj, sort_keys=True, default=str).encode('utf-8')
-    return hashlib.sha1(blob).hexdigest()
 
 
 # ----------------------------
@@ -303,23 +237,15 @@ def _get_uci_client() -> Optional[_UCIClient]:
             pass
         st.session_state["_uci_client"] = None
 
-    # Engine command: env override, else a local, permissively-licensed UCI engine.
-    cmd_env = os.environ.get("GEOCONFLICT_UCI_ENGINE", "").strip() or os.environ.get("WARCOLOR_UCI_ENGINE", "").strip()
+    # Engine command: env override, else python_engine.py in CWD
+    cmd_env = os.environ.get("WARCOLOR_UCI_ENGINE", "").strip()
     if cmd_env:
-        # Allow a custom command, but guard against accidentally selecting a GPL engine by name.
-        if "stockfish" in cmd_env.lower():
-            return None
+        # allow: "stockfish" or "python -u python_engine.py"
         cmd = cmd_env.split()
     else:
-        # Prefer local engines in this order:
-        # 1) geoconflict_uci_engine.py (no GPL dependencies)
+        # prefer local python_engine.py
         cand = None
-        for path in [
-            "geoconflict_uci_engine.py",
-            os.path.join(os.path.dirname(__file__), "geoconflict_uci_engine.py") if "__file__" in globals() else None,
-            "warcolor_uci_engine.py",
-            os.path.join(os.path.dirname(__file__), "warcolor_uci_engine.py") if "__file__" in globals() else None,
-        ]:
+        for path in ["python_engine.py", os.path.join(os.path.dirname(__file__), "python_engine.py") if "__file__" in globals() else None]:
             if path and os.path.exists(path):
                 cand = path
                 break
@@ -346,12 +272,6 @@ def _get_uci_client() -> Optional[_UCIClient]:
 # Page + Theme
 # ----------------------------
 st.set_page_config(page_title="GeoConflictModeler", layout="wide")
-
-# Boot baseline: ensure fresh sessions start neutral (50/50/0), not cached prior run snapshots.
-if "_GCM_BOOT" not in st.session_state:
-    st.session_state["_GCM_BOOT"] = True
-    for _k in ["_has_run", "_last_run_sig", "last_fused_win_prob", "pending_loss_table", "last_mc", "last_summary", "last_series"]:
-        st.session_state.pop(_k, None)
 
 st.markdown("""
 <style>
@@ -480,7 +400,7 @@ def _load_bundle(data_dir_hint: str):
             last_err = e
     raise last_err if last_err else FileNotFoundError("Could not locate data directory.")
 
-bundle, data_dir = _load_bundle(os.environ.get("GEOCONFLICT_DATA_DIR", os.environ.get("WARCOLOR_DATA_DIR", "data")))
+bundle, data_dir = _load_bundle(os.environ.get("WARCOLOR_DATA_DIR", "data"))
 df = bundle.countries.copy()
 
 countries = df.sort_values("Country_Display")["Country_Display"].tolist()
@@ -1520,38 +1440,27 @@ _init("sim_speed", 0.60)  # UI speed knob (0 slow -> 1 fast)
 _init("duel_depth", 2)
 _init("duel_plies", 96)
 
-# Internal run-state (no UI): force neutral probabilities on fresh load/reset
-_init("_has_run", False)
-_boot_mark = "GeoConflictModeler_FINAL_2026-02-22"
-if st.session_state.get("_boot_marker") != _boot_mark:
-    # On fresh load or after code update, start neutral (50/50/0) regardless of any persisted state
-    for _k in ("last_mc", "last_fused_win_prob", "last_summary", "last_series", "pending_loss_table", "pending_sample_summary", "_chess_cp_white", "_last_run_sig"):
-        st.session_state.pop(_k, None)
-    st.session_state["_has_run"] = False
-    st.session_state["_boot_marker"] = _boot_mark
-
-
 # ----------------------------
 # Top bar (Run/Reset/Speed)
 # ----------------------------
 def _reset_all():
-    """Reset session state to a clean baseline (no UI changes)."""
-    # Close external chess engine process
-    try:
-        eng = st.session_state.get("_uci_client", None)
-        if eng is not None:
-            eng.close()
-    except Exception:
-        pass
-    st.session_state.pop("_uci_client", None)
-
-    # Wipe everything except sim_speed (keeps the feel slider stable if desired)
-    keep = {"sim_speed"}
+    keep = {"sim_speed"}  # keep speed if you want
     for k in list(st.session_state.keys()):
-        if k in keep:
+        if k.startswith("_") or k in keep:
             continue
-        st.session_state.pop(k, None)
-
+        # preserve cache keys etc
+        if k in ("_run", "_last_run_seed"):
+            continue
+        # wipe user settings keys
+        if k in (
+            "year","mode","intensity","max_days","nukes_allowed","core_model","scenario_type",
+            "battleground","blue_names","red_names","neutral_names","support_blue","support_red",
+            "sanctions_blue","sanctions_red","iters","seed","duel_depth","duel_plies",
+            "last_summary","last_series","last_mc",
+            # duel visuals
+            "chess_state","phase_state"
+        ):
+            st.session_state.pop(k, None)
     st.rerun()
 
 top = st.container()
@@ -1637,24 +1546,24 @@ with left:
         st.slider("Civilian-risk multiplier", 0.60, 1.70, step=0.02, key="dense_civ_mult")
         st.slider("Force-commit multiplier", 0.60, 1.70, step=0.02, key="dense_commit_mult")
 
-        with st.expander("Auto-fit Dense cfg (optional)", expanded=False):
-            st.slider("Calibration horizon (days)", 30, 365, step=5, key="dense_fit_days")
-            st.slider("Fit iterations (higher = slower)", 50, 400, step=10, key="dense_fit_iters")
-            t_b_air = st.number_input("Target Blue aircraft lost", min_value=0, value=0, step=10)
-            t_b_ship = st.number_input("Target Blue ships lost", min_value=0, value=0, step=5)
-            t_b_kia = st.number_input("Target Blue KIA", min_value=0, value=0, step=100)
-            t_r_air = st.number_input("Target Red aircraft lost", min_value=0, value=0, step=10)
-            t_r_ship = st.number_input("Target Red ships lost", min_value=0, value=0, step=5)
-            t_r_kia = st.number_input("Target Red KIA", min_value=0, value=0, step=100)
-            req = st.button("Request Dense fit (runs on Run scenario)")
-            if req:
-                st.session_state["dense_fit_requested"] = True
-                st.session_state["dense_fit_targets"] = {
-                    "days": int(st.session_state["dense_fit_days"]),
-                    "blue": {"aircraft_lost": float(t_b_air), "ships_lost": float(t_b_ship), "kia": float(t_b_kia)},
-                    "red": {"aircraft_lost": float(t_r_air), "ships_lost": float(t_r_ship), "kia": float(t_r_kia)},
-                }
-                st.success("Dense fit request stored. It will run when you click Run.")
+        st.markdown("**Auto-fit Dense cfg (optional)**")
+        st.slider("Calibration horizon (days)", 30, 365, step=5, key="dense_fit_days")
+        st.slider("Fit iterations (higher = slower)", 50, 400, step=10, key="dense_fit_iters")
+        t_b_air = st.number_input("Target Blue aircraft lost", min_value=0, value=0, step=10)
+        t_b_ship = st.number_input("Target Blue ships lost", min_value=0, value=0, step=5)
+        t_b_kia = st.number_input("Target Blue KIA", min_value=0, value=0, step=100)
+        t_r_air = st.number_input("Target Red aircraft lost", min_value=0, value=0, step=10)
+        t_r_ship = st.number_input("Target Red ships lost", min_value=0, value=0, step=5)
+        t_r_kia = st.number_input("Target Red KIA", min_value=0, value=0, step=100)
+        req = st.button("Request Dense fit (runs on Run scenario)")
+        if req:
+            st.session_state["dense_fit_requested"] = True
+            st.session_state["dense_fit_targets"] = {
+                "days": int(st.session_state["dense_fit_days"]),
+                "blue": {"aircraft_lost": float(t_b_air), "ships_lost": float(t_b_ship), "kia": float(t_b_kia)},
+                "red": {"aircraft_lost": float(t_r_air), "ships_lost": float(t_r_ship), "kia": float(t_r_kia)},
+            }
+            st.success("Dense fit request stored. It will run when you click Run.")
 
         st.divider()
         st.markdown("**Integrated knobs (4-engine)**")
@@ -1672,20 +1581,20 @@ with left:
         st.slider("Red aggression", 0.0, 1.0, step=0.05, key="ic_aggression_red")
         st.checkbox("Use roll-based missile hit adjudication (fog-of-war)", key="ic_use_roll_hits")
 
-        with st.expander("Auto-fit Integrated cfg (optional)", expanded=False):
-            st.slider("Fit iterations", 50, 4000, step=50, key="ic_fit_iters")
-            t_b_air2 = st.number_input("Target Blue aircraft lost (Integrated)", min_value=0, value=0, step=10)
-            t_b_ship2 = st.number_input("Target Blue ships lost (Integrated)", min_value=0, value=0, step=5)
-            t_r_air2 = st.number_input("Target Red aircraft lost (Integrated)", min_value=0, value=0, step=10)
-            t_r_ship2 = st.number_input("Target Red ships lost (Integrated)", min_value=0, value=0, step=5)
-            req2 = st.button("Request Integrated fit (runs on Run scenario)")
-            if req2:
-                st.session_state["ic_fit_requested"] = True
-                st.session_state["ic_fit_targets"] = {
-                    "blue": {"aircraft_lost": float(t_b_air2), "ships_lost": float(t_b_ship2)},
-                    "red": {"aircraft_lost": float(t_r_air2), "ships_lost": float(t_r_ship2)},
-                }
-                st.success("Integrated fit request stored. It will run when you click Run.")
+        st.markdown("**Auto-fit Integrated cfg (optional)**")
+        st.slider("Fit iterations", 50, 4000, step=50, key="ic_fit_iters")
+        t_b_air2 = st.number_input("Target Blue aircraft lost (Integrated)", min_value=0, value=0, step=10)
+        t_b_ship2 = st.number_input("Target Blue ships lost (Integrated)", min_value=0, value=0, step=5)
+        t_r_air2 = st.number_input("Target Red aircraft lost (Integrated)", min_value=0, value=0, step=10)
+        t_r_ship2 = st.number_input("Target Red ships lost (Integrated)", min_value=0, value=0, step=5)
+        req2 = st.button("Request Integrated fit (runs on Run scenario)")
+        if req2:
+            st.session_state["ic_fit_requested"] = True
+            st.session_state["ic_fit_targets"] = {
+                "blue": {"aircraft_lost": float(t_b_air2), "ships_lost": float(t_b_ship2)},
+                "red": {"aircraft_lost": float(t_r_air2), "ships_lost": float(t_r_ship2)},
+            }
+            st.success("Integrated fit request stored. It will run when you click Run.")
     st.markdown("<div class='panel-h'>Economics</div>", unsafe_allow_html=True)
     st.slider("Sanctions vs. Blue", 0.0, 1.0, step=0.05, key="sanctions_blue")
     st.slider("Sanctions vs. Red", 0.0, 1.0, step=0.05, key="sanctions_red")
@@ -1762,14 +1671,12 @@ if "phase_state" not in st.session_state:
 chess_slot.markdown(_render_board_html(st.session_state["chess_state"].board, None), unsafe_allow_html=True)
 
 # If we have previous results, keep them visible on reruns (so the HUD doesn’t revert to placeholders).
-_sig_now = _scenario_signature()
-_has = bool(st.session_state.get("_has_run", False)) and (st.session_state.get("_last_run_sig") == _sig_now)
-_wp = (st.session_state.get("last_fused_win_prob", None) if _has else None) or ((st.session_state.get("last_mc", {}) or {}).get("win_prob", None) if _has else None)
-_wp = _wp or {"Blue": 0.5, "Red": 0.5, "Draw": 0.0}
+_last_mc = st.session_state.get("last_mc", None) or {}
+_wp = (st.session_state.get("last_fused_win_prob", None) or _last_mc.get("win_prob", None) or {"Blue": 0.5, "Red": 0.5, "Draw": 0.0})
 _payload0 = {"win_prob": dict(_wp)}
 
-# Neutral baseline on fresh load; only show final snapshot after a completed run
-_frac0 = 1.0 if _has else 0.0
+# Show a "final" looking phase snapshot if MC exists; otherwise show the hot/mixed baseline.
+_frac0 = 1.0 if ("last_mc" in st.session_state) else 0.0
 fig0 = _render_phase(st.session_state["phase_state"], _frac0, _payload0, int(st.session_state["seed"]), advance=False)
 fluid_slot.pyplot(fig0, use_container_width=True)
 plt.close(fig0)
@@ -1778,11 +1685,36 @@ _bi0, _ri0, _di0 = _pct_int_triplet(float(_wp.get("Blue", 0.5) or 0.5), float(_w
 fluid_meta.markdown(f"**Win mix:** Blue {_bi0}% • Red {_ri0}% • Draw {_di0}%")
 
 def _build_loss_table_from_state(summary: dict, series: Optional[List[dict]]) -> pd.DataFrame:
-    """Build the Battle Losses table from the cinematic/integrated summary + series.
-    Handles both series schemas (Cinematic + Integrated) and always returns whole-number rows.
-    """
     tb = (summary or {}).get("totals", {}).get("blue", {}) or {}
     tr = (summary or {}).get("totals", {}).get("red", {}) or {}
+
+    b_today_kia = r_today_kia = 0
+    b_today_air = r_today_air = 0
+    b_today_ship = r_today_ship = 0
+    b_today_tank = r_today_tank = 0
+    b_today_art = r_today_art = 0
+    b_today_miss = r_today_miss = 0
+
+    try:
+        s = pd.DataFrame(series or []).sort_values("day")
+        if len(s) >= 2:
+            a = s.iloc[-2].to_dict()
+            b = s.iloc[-1].to_dict()
+            b_today_kia = int(max(0, (b.get("blue_total_kia", 0) or 0) - (a.get("blue_total_kia", 0) or 0)))
+            r_today_kia = int(max(0, (b.get("red_total_kia", 0) or 0) - (a.get("red_total_kia", 0) or 0)))
+
+            b_today_air = int(max(0, round((a.get("blue_aircraft_remaining", 0) or 0) - (b.get("blue_aircraft_remaining", 0) or 0))))
+            r_today_air = int(max(0, round((a.get("red_aircraft_remaining", 0) or 0) - (b.get("red_aircraft_remaining", 0) or 0))))
+            b_today_ship = int(max(0, round((a.get("blue_ships_remaining", 0) or 0) - (b.get("blue_ships_remaining", 0) or 0))))
+            r_today_ship = int(max(0, round((a.get("red_ships_remaining", 0) or 0) - (b.get("red_ships_remaining", 0) or 0))))
+            b_today_tank = int(max(0, round((a.get("blue_tanks_remaining", 0) or 0) - (b.get("blue_tanks_remaining", 0) or 0))))
+            r_today_tank = int(max(0, round((a.get("red_tanks_remaining", 0) or 0) - (b.get("red_tanks_remaining", 0) or 0))))
+            b_today_miss = int(max(0, round((a.get("blue_missiles_remaining", 0) or 0) - (b.get("blue_missiles_remaining", 0) or 0))))
+            r_today_miss = int(max(0, round((a.get("red_missiles_remaining", 0) or 0) - (b.get("red_missiles_remaining", 0) or 0))))
+            b_today_miss = int(max(0, round((a.get("blue_missiles_remaining", 0) or 0) - (b.get("blue_missiles_remaining", 0) or 0))))
+            r_today_miss = int(max(0, round((a.get("red_missiles_remaining", 0) or 0) - (b.get("red_missiles_remaining", 0) or 0))))
+    except Exception:
+        pass
 
     def _safe_int(v):
         try:
@@ -1791,68 +1723,6 @@ def _build_loss_table_from_state(summary: dict, series: Optional[List[dict]]) ->
             return int(round(float(v)))
         except Exception:
             return 0
-
-    # Defaults
-    b_today_kia = r_today_kia = 0
-    b_today_air = r_today_air = 0
-    b_today_tank = r_today_tank = 0
-    b_today_art = r_today_art = 0
-    b_today_miss = r_today_miss = 0
-
-    # Helper to fetch a value from one of several possible keys
-    def _get(d: dict, keys: List[str], default=0.0):
-        for k in keys:
-            if k in d and d.get(k) is not None:
-                return d.get(k)
-        return default
-
-    try:
-        s_df = pd.DataFrame(series or [])
-        if len(s_df) >= 2 and "day" in s_df.columns:
-            s_df = s_df.sort_values("day")
-            a = s_df.iloc[-2].to_dict()
-            b = s_df.iloc[-1].to_dict()
-
-            # KIA cumulative keys (we add these for Integrated too)
-            a_kb = float(_get(a, ["blue_total_kia", "blue_kia_total"], 0.0) or 0.0)
-            b_kb = float(_get(b, ["blue_total_kia", "blue_kia_total"], 0.0) or 0.0)
-            a_kr = float(_get(a, ["red_total_kia", "red_kia_total"], 0.0) or 0.0)
-            b_kr = float(_get(b, ["red_total_kia", "red_kia_total"], 0.0) or 0.0)
-            b_today_kia = _safe_int(max(0.0, b_kb - a_kb))
-            r_today_kia = _safe_int(max(0.0, b_kr - a_kr))
-
-            # Remaining inventories (Cinematic uses *_remaining; Integrated uses plain keys)
-            a_air = float(_get(a, ["blue_aircraft_remaining", "blue_aircraft"], 0.0) or 0.0)
-            b_air = float(_get(b, ["blue_aircraft_remaining", "blue_aircraft"], 0.0) or 0.0)
-            a_air_r = float(_get(a, ["red_aircraft_remaining", "red_aircraft"], 0.0) or 0.0)
-            b_air_r = float(_get(b, ["red_aircraft_remaining", "red_aircraft"], 0.0) or 0.0)
-
-            a_tk = float(_get(a, ["blue_tanks_remaining", "blue_tanks"], 0.0) or 0.0)
-            b_tk = float(_get(b, ["blue_tanks_remaining", "blue_tanks"], 0.0) or 0.0)
-            a_tk_r = float(_get(a, ["red_tanks_remaining", "red_tanks"], 0.0) or 0.0)
-            b_tk_r = float(_get(b, ["red_tanks_remaining", "red_tanks"], 0.0) or 0.0)
-
-            a_art = float(_get(a, ["blue_artillery_remaining", "blue_artillery"], 0.0) or 0.0)
-            b_art = float(_get(b, ["blue_artillery_remaining", "blue_artillery"], 0.0) or 0.0)
-            a_art_r = float(_get(a, ["red_artillery_remaining", "red_artillery"], 0.0) or 0.0)
-            b_art_r = float(_get(b, ["red_artillery_remaining", "red_artillery"], 0.0) or 0.0)
-
-            # Missiles: Cinematic uses *_missiles_remaining; Integrated uses missiles_*_left
-            a_m = float(_get(a, ["blue_missiles_remaining", "missiles_blue_left"], 0.0) or 0.0)
-            b_m = float(_get(b, ["blue_missiles_remaining", "missiles_blue_left"], 0.0) or 0.0)
-            a_mr = float(_get(a, ["red_missiles_remaining", "missiles_red_left"], 0.0) or 0.0)
-            b_mr = float(_get(b, ["red_missiles_remaining", "missiles_red_left"], 0.0) or 0.0)
-
-            b_today_air = _safe_int(max(0.0, a_air - b_air))
-            r_today_air = _safe_int(max(0.0, a_air_r - b_air_r))
-            b_today_tank = _safe_int(max(0.0, a_tk - b_tk))
-            r_today_tank = _safe_int(max(0.0, a_tk_r - b_tk_r))
-            b_today_art = _safe_int(max(0.0, a_art - b_art))
-            r_today_art = _safe_int(max(0.0, a_art_r - b_art_r))
-            b_today_miss = _safe_int(max(0.0, a_m - b_m))
-            r_today_miss = _safe_int(max(0.0, a_mr - b_mr))
-    except Exception:
-        pass
 
     return pd.DataFrame({
         "Losses": ["Personnel (KIA)", "Aircraft", "Tanks / AFVs", "Artillery", "Missiles Used"],
@@ -2029,7 +1899,45 @@ if run_now and can_run:
     st.session_state["last_summary"] = summary
     st.session_state["last_series"] = series
 
-    loss_table = _build_loss_table_from_state(summary, series)
+    tb = summary["totals"]["blue"]
+    tr = summary["totals"]["red"]
+
+    # Today deltas (use last two days if available)
+    b_today_kia = r_today_kia = 0
+    b_today_air = r_today_air = 0
+    b_today_ship = r_today_ship = 0
+    b_today_tank = r_today_tank = 0
+    b_today_art = r_today_art = 0
+    b_today_miss = r_today_miss = 0
+
+    try:
+        s = pd.DataFrame(series).sort_values("day")
+        if len(s) >= 2:
+            a = s.iloc[-2].to_dict()
+            b = s.iloc[-1].to_dict()
+            b_today_kia = int(max(0, (b.get("blue_total_kia",0) or 0) - (a.get("blue_total_kia",0) or 0)))
+            r_today_kia = int(max(0, (b.get("red_total_kia",0) or 0) - (a.get("red_total_kia",0) or 0)))
+            # remaining -> losses today (approx)
+            b_today_air = int(max(0, round((a.get("blue_aircraft_remaining",0) or 0) - (b.get("blue_aircraft_remaining",0) or 0))))
+            r_today_air = int(max(0, round((a.get("red_aircraft_remaining",0) or 0) - (b.get("red_aircraft_remaining",0) or 0))))
+            b_today_ship = int(max(0, round((a.get("blue_ships_remaining",0) or 0) - (b.get("blue_ships_remaining",0) or 0))))
+            r_today_ship = int(max(0, round((a.get("red_ships_remaining",0) or 0) - (b.get("red_ships_remaining",0) or 0))))
+            b_today_tank = int(max(0, round((a.get("blue_tanks_remaining",0) or 0) - (b.get("blue_tanks_remaining",0) or 0))))
+            r_today_tank = int(max(0, round((a.get("red_tanks_remaining",0) or 0) - (b.get("red_tanks_remaining",0) or 0))))
+            # missiles used today (if remaining is tracked)
+            b_today_miss = int(max(0, round((a.get("blue_missiles_remaining",0) or 0) - (b.get("blue_missiles_remaining",0) or 0))))
+            r_today_miss = int(max(0, round((a.get("red_missiles_remaining",0) or 0) - (b.get("red_missiles_remaining",0) or 0))))
+            # no artillery daily series in cinematic; estimate 0
+    except Exception:
+        pass
+
+    loss_table = pd.DataFrame({
+        "Losses": ["Personnel (KIA)", "Aircraft", "Tanks / AFVs", "Artillery", "Missiles Used"],
+        "Blue Today": [b_today_kia, b_today_air, b_today_tank, b_today_art, b_today_miss],
+        "Blue Total": [tb.get("kia",0), tb.get("aircraft",0), tb.get("tanks",0), tb.get("artillery",0), int(tb.get("missiles",0))],
+        "Red Today":  [r_today_kia, r_today_air, r_today_tank, r_today_art, r_today_miss],
+        "Red Total":  [tr.get("kia",0), tr.get("aircraft",0), tr.get("tanks",0), tr.get("artillery",0), int(tr.get("missiles",0))],
+    })
     st.session_state["pending_loss_table"] = loss_table
     st.session_state["pending_sample_summary"] = {"winner": summary.get("winner","Draw"), "end_reason": summary.get("end_reason","")}
     # Hold the Battle Losses panel until MC+duel finish (prevents partial / inconsistent readouts)
@@ -2235,8 +2143,6 @@ if run_now and can_run:
     prog.progress(1.0)
     prog_txt.markdown("**Progress:** 100%")
     st.session_state["last_mc"] = mc
-    st.session_state["_has_run"] = True
-    st.session_state["_last_run_sig"] = _sig_now
     try:
         _wp3 = (mc.get("win_prob", {}) or {})
         pB3 = float(_wp3.get("Blue", 0.5) or 0.5)
