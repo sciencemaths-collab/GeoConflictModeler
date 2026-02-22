@@ -5,9 +5,12 @@ services:
   # ----------------------------
   # Static site (landing + docs + login + pricing)
   # ----------------------------
-  - type: static
+  - type: web
     name: geoconflictmodeler-site
+    runtime: static
+    plan: free
     rootDir: site
+    buildCommand: "true"
     staticPublishPath: .
 
   # ----------------------------
@@ -61,7 +64,6 @@ services:
       # Set to API base URL when enabling gate (e.g., https://api.yourdomain.com)
       - key: GCM_API_BASE_URL
         sync: false
-
 
 databases:
   - name: geoconflictmodeler-db
