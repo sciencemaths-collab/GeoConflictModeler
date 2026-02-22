@@ -1,0 +1,1460 @@
+[
+  {
+    "flagCode": "US",
+    "country": "United States",
+    "TotalMilitaryAircraft_2025": 13043,
+    "AirForceAircraft_2025": 4875,
+    "ArmyAircraft_2025": 4367,
+    "NavyAircraft_2025": 2484,
+    "MarinesAndOtherAircraft_2025": 1317
+  },
+  {
+    "flagCode": "RU",
+    "country": "Russia",
+    "TotalMilitaryAircraft_2025": 4292,
+    "AirForceAircraft_2025": 3944,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": 348,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "CN",
+    "country": "China",
+    "TotalMilitaryAircraft_2025": 3309,
+    "AirForceAircraft_2025": 2014,
+    "ArmyAircraft_2025": 859,
+    "NavyAircraft_2025": 436,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "IN",
+    "country": "India",
+    "TotalMilitaryAircraft_2025": 2229,
+    "AirForceAircraft_2025": 1695,
+    "ArmyAircraft_2025": 276,
+    "NavyAircraft_2025": 258,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "KR",
+    "country": "South Korea",
+    "TotalMilitaryAircraft_2025": 1592,
+    "AirForceAircraft_2025": 821,
+    "ArmyAircraft_2025": 671,
+    "NavyAircraft_2025": 71,
+    "MarinesAndOtherAircraft_2025": 29
+  },
+  {
+    "flagCode": "JP",
+    "country": "Japan",
+    "TotalMilitaryAircraft_2025": 1443,
+    "AirForceAircraft_2025": 737,
+    "ArmyAircraft_2025": 415,
+    "NavyAircraft_2025": 291,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "PK",
+    "country": "Pakistan",
+    "TotalMilitaryAircraft_2025": 1399,
+    "AirForceAircraft_2025": 802,
+    "ArmyAircraft_2025": 552,
+    "NavyAircraft_2025": 45,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "EG",
+    "country": "Egypt",
+    "TotalMilitaryAircraft_2025": 1093,
+    "AirForceAircraft_2025": 1093,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "TR",
+    "country": "Turkey",
+    "TotalMilitaryAircraft_2025": 1083,
+    "AirForceAircraft_2025": 623,
+    "ArmyAircraft_2025": 413,
+    "NavyAircraft_2025": 47,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "FR",
+    "country": "France",
+    "TotalMilitaryAircraft_2025": 976,
+    "AirForceAircraft_2025": 494,
+    "ArmyAircraft_2025": 312,
+    "NavyAircraft_2025": 170,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "SA",
+    "country": "Saudi Arabia",
+    "TotalMilitaryAircraft_2025": 917,
+    "AirForceAircraft_2025": 706,
+    "ArmyAircraft_2025": 84,
+    "NavyAircraft_2025": 56,
+    "MarinesAndOtherAircraft_2025": 71
+  },
+  {
+    "flagCode": "KP",
+    "country": "North Korea",
+    "TotalMilitaryAircraft_2025": 861,
+    "AirForceAircraft_2025": 861,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "TW",
+    "country": "Taiwan",
+    "TotalMilitaryAircraft_2025": 761,
+    "AirForceAircraft_2025": 537,
+    "ArmyAircraft_2025": 200,
+    "NavyAircraft_2025": 24,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "IT",
+    "country": "Italy",
+    "TotalMilitaryAircraft_2025": 727,
+    "AirForceAircraft_2025": 392,
+    "ArmyAircraft_2025": 214,
+    "NavyAircraft_2025": 121,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "GB",
+    "country": "United Kingdom",
+    "TotalMilitaryAircraft_2025": 631,
+    "AirForceAircraft_2025": 471,
+    "ArmyAircraft_2025": 67,
+    "NavyAircraft_2025": 93,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "IL",
+    "country": "Israel",
+    "TotalMilitaryAircraft_2025": 611,
+    "AirForceAircraft_2025": 611,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "DZ",
+    "country": "Algeria",
+    "TotalMilitaryAircraft_2025": 608,
+    "AirForceAircraft_2025": 590,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": 18,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "DE",
+    "country": "Germany",
+    "TotalMilitaryAircraft_2025": 584,
+    "AirForceAircraft_2025": 355,
+    "ArmyAircraft_2025": 184,
+    "NavyAircraft_2025": 45,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "GR",
+    "country": "Greece",
+    "TotalMilitaryAircraft_2025": 558,
+    "AirForceAircraft_2025": 289,
+    "ArmyAircraft_2025": 248,
+    "NavyAircraft_2025": 21,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "IR",
+    "country": "Iran",
+    "TotalMilitaryAircraft_2025": 551,
+    "AirForceAircraft_2025": 349,
+    "ArmyAircraft_2025": 82,
+    "NavyAircraft_2025": 31,
+    "MarinesAndOtherAircraft_2025": 89
+  },
+  {
+    "flagCode": "AE",
+    "country": "United Arab Emirates",
+    "TotalMilitaryAircraft_2025": 551,
+    "AirForceAircraft_2025": 322,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": 229
+  },
+  {
+    "flagCode": "BR",
+    "country": "Brazil",
+    "TotalMilitaryAircraft_2025": 513,
+    "AirForceAircraft_2025": 364,
+    "ArmyAircraft_2025": 91,
+    "NavyAircraft_2025": 58,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "TH",
+    "country": "Thailand",
+    "TotalMilitaryAircraft_2025": 493,
+    "AirForceAircraft_2025": 249,
+    "ArmyAircraft_2025": 205,
+    "NavyAircraft_2025": 39,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "PL",
+    "country": "Poland",
+    "TotalMilitaryAircraft_2025": 479,
+    "AirForceAircraft_2025": 295,
+    "ArmyAircraft_2025": 150,
+    "NavyAircraft_2025": 34,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "ES",
+    "country": "Spain",
+    "TotalMilitaryAircraft_2025": 461,
+    "AirForceAircraft_2025": 333,
+    "ArmyAircraft_2025": 91,
+    "NavyAircraft_2025": 37,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "ID",
+    "country": "Indonesia",
+    "TotalMilitaryAircraft_2025": 459,
+    "AirForceAircraft_2025": 253,
+    "ArmyAircraft_2025": 153,
+    "NavyAircraft_2025": 53,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "CO",
+    "country": "Colombia",
+    "TotalMilitaryAircraft_2025": 436,
+    "AirForceAircraft_2025": 276,
+    "ArmyAircraft_2025": 131,
+    "NavyAircraft_2025": 29,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "MX",
+    "country": "Mexico",
+    "TotalMilitaryAircraft_2025": 433,
+    "AirForceAircraft_2025": 295,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": 138,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "SY",
+    "country": "Syria",
+    "TotalMilitaryAircraft_2025": 414,
+    "AirForceAircraft_2025": 414,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "IQ",
+    "country": "Iraq",
+    "TotalMilitaryAircraft_2025": 391,
+    "AirForceAircraft_2025": 196,
+    "ArmyAircraft_2025": 195,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "CA",
+    "country": "Canada",
+    "TotalMilitaryAircraft_2025": 351,
+    "AirForceAircraft_2025": 351,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "AU",
+    "country": "Australia",
+    "TotalMilitaryAircraft_2025": 327,
+    "AirForceAircraft_2025": 243,
+    "ArmyAircraft_2025": 61,
+    "NavyAircraft_2025": 23,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "UA",
+    "country": "Ukraine",
+    "TotalMilitaryAircraft_2025": 324,
+    "AirForceAircraft_2025": 201,
+    "ArmyAircraft_2025": 109,
+    "NavyAircraft_2025": 14,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "MM",
+    "country": "Myanmar",
+    "TotalMilitaryAircraft_2025": 317,
+    "AirForceAircraft_2025": 312,
+    "ArmyAircraft_2025": 5,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "AO",
+    "country": "Angola",
+    "TotalMilitaryAircraft_2025": 298,
+    "AirForceAircraft_2025": 298,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "CL",
+    "country": "Chile",
+    "TotalMilitaryAircraft_2025": 277,
+    "AirForceAircraft_2025": 193,
+    "ArmyAircraft_2025": 36,
+    "NavyAircraft_2025": 48,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "JO",
+    "country": "Jordan",
+    "TotalMilitaryAircraft_2025": 274,
+    "AirForceAircraft_2025": 274,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "MA",
+    "country": "Morocco",
+    "TotalMilitaryAircraft_2025": 260,
+    "AirForceAircraft_2025": 254,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": 6,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "PE",
+    "country": "Peru",
+    "TotalMilitaryAircraft_2025": 256,
+    "AirForceAircraft_2025": 158,
+    "ArmyAircraft_2025": 56,
+    "NavyAircraft_2025": 42,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "QA",
+    "country": "Qatar",
+    "TotalMilitaryAircraft_2025": 251,
+    "AirForceAircraft_2025": 251,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "VN",
+    "country": "Vietnam",
+    "TotalMilitaryAircraft_2025": 246,
+    "AirForceAircraft_2025": 230,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": 16,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "AR",
+    "country": "Argentina",
+    "TotalMilitaryAircraft_2025": 239,
+    "AirForceAircraft_2025": 133,
+    "ArmyAircraft_2025": 77,
+    "NavyAircraft_2025": 29,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "SG",
+    "country": "Singapore",
+    "TotalMilitaryAircraft_2025": 230,
+    "AirForceAircraft_2025": 230,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "VE",
+    "country": "Venezuela",
+    "TotalMilitaryAircraft_2025": 229,
+    "AirForceAircraft_2025": 146,
+    "ArmyAircraft_2025": 56,
+    "NavyAircraft_2025": 27,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "BD",
+    "country": "Bangladesh",
+    "TotalMilitaryAircraft_2025": 214,
+    "AirForceAircraft_2025": 195,
+    "ArmyAircraft_2025": 13,
+    "NavyAircraft_2025": 6,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "PH",
+    "country": "Philippines",
+    "TotalMilitaryAircraft_2025": 202,
+    "AirForceAircraft_2025": 181,
+    "ArmyAircraft_2025": 5,
+    "NavyAircraft_2025": 16,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "KZ",
+    "country": "Kazakhstan",
+    "TotalMilitaryAircraft_2025": 198,
+    "AirForceAircraft_2025": 198,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "UZ",
+    "country": "Uzbekistan",
+    "TotalMilitaryAircraft_2025": 192,
+    "AirForceAircraft_2025": 192,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "BY",
+    "country": "Belarus",
+    "TotalMilitaryAircraft_2025": 185,
+    "AirForceAircraft_2025": 185,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "ZA",
+    "country": "South Africa",
+    "TotalMilitaryAircraft_2025": 182,
+    "AirForceAircraft_2025": 182,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "SE",
+    "country": "Sweden",
+    "TotalMilitaryAircraft_2025": 169,
+    "AirForceAircraft_2025": 116,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": 53
+  },
+  {
+    "flagCode": "YE",
+    "country": "Yemen",
+    "TotalMilitaryAircraft_2025": 168,
+    "AirForceAircraft_2025": 168,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "SD",
+    "country": "Sudan",
+    "TotalMilitaryAircraft_2025": 165,
+    "AirForceAircraft_2025": 165,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "NG",
+    "country": "Nigeria",
+    "TotalMilitaryAircraft_2025": 163,
+    "AirForceAircraft_2025": 151,
+    "ArmyAircraft_2025": 2,
+    "NavyAircraft_2025": 10,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "FI",
+    "country": "Finland",
+    "TotalMilitaryAircraft_2025": 163,
+    "AirForceAircraft_2025": 136,
+    "ArmyAircraft_2025": 27,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "KE",
+    "country": "Kenya",
+    "TotalMilitaryAircraft_2025": 156,
+    "AirForceAircraft_2025": 111,
+    "ArmyAircraft_2025": 45,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "TN",
+    "country": "Tunisia",
+    "TotalMilitaryAircraft_2025": 154,
+    "AirForceAircraft_2025": 154,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "AZ",
+    "country": "Azerbaijan",
+    "TotalMilitaryAircraft_2025": 154,
+    "AirForceAircraft_2025": 154,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "CH",
+    "country": "Switzerland",
+    "TotalMilitaryAircraft_2025": 146,
+    "AirForceAircraft_2025": 146,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "LY",
+    "country": "Libya",
+    "TotalMilitaryAircraft_2025": 143,
+    "AirForceAircraft_2025": 122,
+    "ArmyAircraft_2025": 18,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": 3
+  },
+  {
+    "flagCode": "RO",
+    "country": "Romania",
+    "TotalMilitaryAircraft_2025": 140,
+    "AirForceAircraft_2025": 137,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": 3,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "MY",
+    "country": "Malaysia",
+    "TotalMilitaryAircraft_2025": 135,
+    "AirForceAircraft_2025": 107,
+    "ArmyAircraft_2025": 16,
+    "NavyAircraft_2025": 12,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "BH",
+    "country": "Bahrain",
+    "TotalMilitaryAircraft_2025": 132,
+    "AirForceAircraft_2025": 130,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": 2,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "OM",
+    "country": "Oman",
+    "TotalMilitaryAircraft_2025": 128,
+    "AirForceAircraft_2025": 128,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "KW",
+    "country": "Kuwait",
+    "TotalMilitaryAircraft_2025": 128,
+    "AirForceAircraft_2025": 124,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": 4,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "NL",
+    "country": "Netherlands",
+    "TotalMilitaryAircraft_2025": 120,
+    "AirForceAircraft_2025": 57,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": 63
+  },
+  {
+    "flagCode": "DK",
+    "country": "Denmark",
+    "TotalMilitaryAircraft_2025": 117,
+    "AirForceAircraft_2025": 117,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "RS",
+    "country": "Serbia",
+    "TotalMilitaryAircraft_2025": 110,
+    "AirForceAircraft_2025": 110,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "BE",
+    "country": "Belgium",
+    "TotalMilitaryAircraft_2025": 108,
+    "AirForceAircraft_2025": 108,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "ET",
+    "country": "Ethiopia",
+    "TotalMilitaryAircraft_2025": 103,
+    "AirForceAircraft_2025": 92,
+    "ArmyAircraft_2025": 11,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "EC",
+    "country": "Ecuador",
+    "TotalMilitaryAircraft_2025": 102,
+    "AirForceAircraft_2025": 49,
+    "ArmyAircraft_2025": 33,
+    "NavyAircraft_2025": 20,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "CZ",
+    "country": "Czechia",
+    "TotalMilitaryAircraft_2025": 99,
+    "AirForceAircraft_2025": 99,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "NO",
+    "country": "Norway",
+    "TotalMilitaryAircraft_2025": 97,
+    "AirForceAircraft_2025": 97,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "ZW",
+    "country": "Zimbabwe",
+    "TotalMilitaryAircraft_2025": 95,
+    "AirForceAircraft_2025": 95,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "TM",
+    "country": "Turkmenistan",
+    "TotalMilitaryAircraft_2025": 91,
+    "AirForceAircraft_2025": 91,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "LK",
+    "country": "Sri Lanka",
+    "TotalMilitaryAircraft_2025": 85,
+    "AirForceAircraft_2025": 85,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "AT",
+    "country": "Austria",
+    "TotalMilitaryAircraft_2025": 85,
+    "AirForceAircraft_2025": 85,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "LB",
+    "country": "Lebanon",
+    "TotalMilitaryAircraft_2025": 80,
+    "AirForceAircraft_2025": 80,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "PT",
+    "country": "Portugal",
+    "TotalMilitaryAircraft_2025": 79,
+    "AirForceAircraft_2025": 76,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": 3,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "ZM",
+    "country": "Zambia",
+    "TotalMilitaryAircraft_2025": 77,
+    "AirForceAircraft_2025": 77,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "AM",
+    "country": "Armenia",
+    "TotalMilitaryAircraft_2025": 71,
+    "AirForceAircraft_2025": 59,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": 12
+  },
+  {
+    "flagCode": "CD",
+    "country": "DR Congo",
+    "TotalMilitaryAircraft_2025": 70,
+    "AirForceAircraft_2025": 54,
+    "ArmyAircraft_2025": 16,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "HU",
+    "country": "Hungary",
+    "TotalMilitaryAircraft_2025": 69,
+    "AirForceAircraft_2025": 69,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "HR",
+    "country": "Croatia",
+    "TotalMilitaryAircraft_2025": 67,
+    "AirForceAircraft_2025": 67,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "BG",
+    "country": "Bulgaria",
+    "TotalMilitaryAircraft_2025": 65,
+    "AirForceAircraft_2025": 62,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": 3,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "BO",
+    "country": "Bolivia",
+    "TotalMilitaryAircraft_2025": 64,
+    "AirForceAircraft_2025": 56,
+    "ArmyAircraft_2025": 7,
+    "NavyAircraft_2025": 1,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "DO",
+    "country": "Dominican Republic",
+    "TotalMilitaryAircraft_2025": 63,
+    "AirForceAircraft_2025": 63,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "GE",
+    "country": "Georgia",
+    "TotalMilitaryAircraft_2025": 61,
+    "AirForceAircraft_2025": null,
+    "ArmyAircraft_2025": 57,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": 4
+  },
+  {
+    "flagCode": "SV",
+    "country": "El Salvador",
+    "TotalMilitaryAircraft_2025": 52,
+    "AirForceAircraft_2025": 52,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "UG",
+    "country": "Uganda",
+    "TotalMilitaryAircraft_2025": 51,
+    "AirForceAircraft_2025": 51,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "NZ",
+    "country": "New Zealand",
+    "TotalMilitaryAircraft_2025": 48,
+    "AirForceAircraft_2025": 48,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "PY",
+    "country": "Paraguay",
+    "TotalMilitaryAircraft_2025": 45,
+    "AirForceAircraft_2025": 44,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": 1,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "BW",
+    "country": "Botswana",
+    "TotalMilitaryAircraft_2025": 45,
+    "AirForceAircraft_2025": 45,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "ML",
+    "country": "Mali",
+    "TotalMilitaryAircraft_2025": 43,
+    "AirForceAircraft_2025": 43,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "UY",
+    "country": "Uruguay",
+    "TotalMilitaryAircraft_2025": 43,
+    "AirForceAircraft_2025": 39,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": 4,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "SK",
+    "country": "Slovakia",
+    "TotalMilitaryAircraft_2025": 41,
+    "AirForceAircraft_2025": 41,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "TD",
+    "country": "Chad",
+    "TotalMilitaryAircraft_2025": 40,
+    "AirForceAircraft_2025": 40,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "SN",
+    "country": "Senegal",
+    "TotalMilitaryAircraft_2025": 40,
+    "AirForceAircraft_2025": 40,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "HN",
+    "country": "Honduras",
+    "TotalMilitaryAircraft_2025": 40,
+    "AirForceAircraft_2025": 40,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "TZ",
+    "country": "Tanzania",
+    "TotalMilitaryAircraft_2025": 39,
+    "AirForceAircraft_2025": 39,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "SI",
+    "country": "Slovenia",
+    "TotalMilitaryAircraft_2025": 39,
+    "AirForceAircraft_2025": 39,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "PA",
+    "country": "Panama",
+    "TotalMilitaryAircraft_2025": 38,
+    "AirForceAircraft_2025": 38,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "GT",
+    "country": "Guatemala",
+    "TotalMilitaryAircraft_2025": 36,
+    "AirForceAircraft_2025": 36,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "CM",
+    "country": "Cameroon",
+    "TotalMilitaryAircraft_2025": 35,
+    "AirForceAircraft_2025": 35,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "NA",
+    "country": "Namibia",
+    "TotalMilitaryAircraft_2025": 34,
+    "AirForceAircraft_2025": 34,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "LA",
+    "country": "Laos",
+    "TotalMilitaryAircraft_2025": 33,
+    "AirForceAircraft_2025": null,
+    "ArmyAircraft_2025": 33,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "CU",
+    "country": "Cuba",
+    "TotalMilitaryAircraft_2025": 31,
+    "AirForceAircraft_2025": 31,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "AF",
+    "country": "Afghanistan",
+    "TotalMilitaryAircraft_2025": 29,
+    "AirForceAircraft_2025": 29,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "NE",
+    "country": "Niger",
+    "TotalMilitaryAircraft_2025": 26,
+    "AirForceAircraft_2025": 26,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "BN",
+    "country": "Brunei",
+    "TotalMilitaryAircraft_2025": 26,
+    "AirForceAircraft_2025": 26,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "BF",
+    "country": "Burkina Faso",
+    "TotalMilitaryAircraft_2025": 25,
+    "AirForceAircraft_2025": 25,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "KH",
+    "country": "Cambodia",
+    "TotalMilitaryAircraft_2025": 25,
+    "AirForceAircraft_2025": 25,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "TJ",
+    "country": "Tajikistan",
+    "TotalMilitaryAircraft_2025": 25,
+    "AirForceAircraft_2025": 25,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "MR",
+    "country": "Mauritania",
+    "TotalMilitaryAircraft_2025": 24,
+    "AirForceAircraft_2025": 24,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "GA",
+    "country": "Gabon",
+    "TotalMilitaryAircraft_2025": 24,
+    "AirForceAircraft_2025": 24,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "MZ",
+    "country": "Mozambique",
+    "TotalMilitaryAircraft_2025": 22,
+    "AirForceAircraft_2025": 22,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "IE",
+    "country": "Ireland",
+    "TotalMilitaryAircraft_2025": 22,
+    "AirForceAircraft_2025": 22,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "BA",
+    "country": "Bosnia and Herzegovina",
+    "TotalMilitaryAircraft_2025": 22,
+    "AirForceAircraft_2025": 22,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "GQ",
+    "country": "Equatorial Guinea",
+    "TotalMilitaryAircraft_2025": 22,
+    "AirForceAircraft_2025": 22,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "RW",
+    "country": "Rwanda",
+    "TotalMilitaryAircraft_2025": 21,
+    "AirForceAircraft_2025": 21,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "SS",
+    "country": "South Sudan",
+    "TotalMilitaryAircraft_2025": 20,
+    "AirForceAircraft_2025": 20,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "ER",
+    "country": "Eritrea",
+    "TotalMilitaryAircraft_2025": 20,
+    "AirForceAircraft_2025": 20,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "MK",
+    "country": "North Macedonia",
+    "TotalMilitaryAircraft_2025": 20,
+    "AirForceAircraft_2025": null,
+    "ArmyAircraft_2025": 20,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "GH",
+    "country": "Ghana",
+    "TotalMilitaryAircraft_2025": 19,
+    "AirForceAircraft_2025": 19,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "CI",
+    "country": "Ivory Coast",
+    "TotalMilitaryAircraft_2025": 19,
+    "AirForceAircraft_2025": 19,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "AL",
+    "country": "Albania",
+    "TotalMilitaryAircraft_2025": 19,
+    "AirForceAircraft_2025": 19,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "TG",
+    "country": "Togo",
+    "TotalMilitaryAircraft_2025": 18,
+    "AirForceAircraft_2025": 18,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "NI",
+    "country": "Nicaragua",
+    "TotalMilitaryAircraft_2025": 17,
+    "AirForceAircraft_2025": 17,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "JM",
+    "country": "Jamaica",
+    "TotalMilitaryAircraft_2025": 17,
+    "AirForceAircraft_2025": 17,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "DJ",
+    "country": "Djibouti",
+    "TotalMilitaryAircraft_2025": 17,
+    "AirForceAircraft_2025": 17,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "NP",
+    "country": "Nepal",
+    "TotalMilitaryAircraft_2025": 15,
+    "AirForceAircraft_2025": null,
+    "ArmyAircraft_2025": 15,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "CG",
+    "country": "Republic of the Congo",
+    "TotalMilitaryAircraft_2025": 14,
+    "AirForceAircraft_2025": 13,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": 1,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "BI",
+    "country": "Burundi",
+    "TotalMilitaryAircraft_2025": 12,
+    "AirForceAircraft_2025": null,
+    "ArmyAircraft_2025": 12,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "ME",
+    "country": "Montenegro",
+    "TotalMilitaryAircraft_2025": 11,
+    "AirForceAircraft_2025": 11,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "MW",
+    "country": "Malawi",
+    "TotalMilitaryAircraft_2025": 10,
+    "AirForceAircraft_2025": 10,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "LT",
+    "country": "Lithuania",
+    "TotalMilitaryAircraft_2025": 9,
+    "AirForceAircraft_2025": 9,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "LS",
+    "country": "Lesotho",
+    "TotalMilitaryAircraft_2025": 9,
+    "AirForceAircraft_2025": 9,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "MT",
+    "country": "Malta",
+    "TotalMilitaryAircraft_2025": 9,
+    "AirForceAircraft_2025": null,
+    "ArmyAircraft_2025": 9,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "GN",
+    "country": "Guinea",
+    "TotalMilitaryAircraft_2025": 7,
+    "AirForceAircraft_2025": 7,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "KG",
+    "country": "Kyrgyzstan",
+    "TotalMilitaryAircraft_2025": 7,
+    "AirForceAircraft_2025": 7,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "MN",
+    "country": "Mongolia",
+    "TotalMilitaryAircraft_2025": 7,
+    "AirForceAircraft_2025": 7,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "LV",
+    "country": "Latvia",
+    "TotalMilitaryAircraft_2025": 7,
+    "AirForceAircraft_2025": 7,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "CY",
+    "country": "Cyprus",
+    "TotalMilitaryAircraft_2025": 7,
+    "AirForceAircraft_2025": 7,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "CF",
+    "country": "Central African Republic",
+    "TotalMilitaryAircraft_2025": 6,
+    "AirForceAircraft_2025": 6,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "MG",
+    "country": "Madagascar",
+    "TotalMilitaryAircraft_2025": 5,
+    "AirForceAircraft_2025": 5,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "BJ",
+    "country": "Benin",
+    "TotalMilitaryAircraft_2025": 5,
+    "AirForceAircraft_2025": 5,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "EE",
+    "country": "Estonia",
+    "TotalMilitaryAircraft_2025": 5,
+    "AirForceAircraft_2025": 5,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "SZ",
+    "country": "Eswatini",
+    "TotalMilitaryAircraft_2025": 5,
+    "AirForceAircraft_2025": 5,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "GY",
+    "country": "Guyana",
+    "TotalMilitaryAircraft_2025": 4,
+    "AirForceAircraft_2025": 4,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "MV",
+    "country": "Maldives",
+    "TotalMilitaryAircraft_2025": 4,
+    "AirForceAircraft_2025": 4,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "PG",
+    "country": "Papua New Guinea",
+    "TotalMilitaryAircraft_2025": 3,
+    "AirForceAircraft_2025": 3,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "MD",
+    "country": "Moldova",
+    "TotalMilitaryAircraft_2025": 3,
+    "AirForceAircraft_2025": 1,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": 2
+  },
+  {
+    "flagCode": "SR",
+    "country": "Suriname",
+    "TotalMilitaryAircraft_2025": 3,
+    "AirForceAircraft_2025": 3,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "BZ",
+    "country": "Belize",
+    "TotalMilitaryAircraft_2025": 3,
+    "AirForceAircraft_2025": 3,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "SC",
+    "country": "Seychelles",
+    "TotalMilitaryAircraft_2025": 3,
+    "AirForceAircraft_2025": 3,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "TT",
+    "country": "Trinidad and Tobago",
+    "TotalMilitaryAircraft_2025": 2,
+    "AirForceAircraft_2025": 2,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "BT",
+    "country": "Bhutan",
+    "TotalMilitaryAircraft_2025": 2,
+    "AirForceAircraft_2025": null,
+    "ArmyAircraft_2025": 2,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "BS",
+    "country": "Bahamas",
+    "TotalMilitaryAircraft_2025": 2,
+    "AirForceAircraft_2025": 2,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "SL",
+    "country": "Sierra Leone",
+    "TotalMilitaryAircraft_2025": 1,
+    "AirForceAircraft_2025": null,
+    "ArmyAircraft_2025": 1,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "LU",
+    "country": "Luxembourg",
+    "TotalMilitaryAircraft_2025": 1,
+    "AirForceAircraft_2025": 1,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": "AG",
+    "country": "Antigua and Barbuda",
+    "TotalMilitaryAircraft_2025": 1,
+    "AirForceAircraft_2025": 1,
+    "ArmyAircraft_2025": null,
+    "NavyAircraft_2025": null,
+    "MarinesAndOtherAircraft_2025": null
+  },
+  {
+    "flagCode": null,
+    "country": "Total",
+    "TotalMilitaryAircraft_2025": 52626,
+    "AirForceAircraft_2025": 34814,
+    "ArmyAircraft_2025": 10702,
+    "NavyAircraft_2025": 5238,
+    "MarinesAndOtherAircraft_2025": 1872
+  }
+]

@@ -1,0 +1,807 @@
+[
+  {
+    "flagCode": "RU",
+    "country": "Russia",
+    "TotalNavalAssets_2024": 781,
+    "AircraftCarriers_2025": 1,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "CN",
+    "country": "China",
+    "TotalNavalAssets_2024": 730,
+    "AircraftCarriers_2025": 3,
+    "HelicopterCarriers_2025": 4
+  },
+  {
+    "flagCode": "KP",
+    "country": "North Korea",
+    "TotalNavalAssets_2024": 505,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "US",
+    "country": "United States",
+    "TotalNavalAssets_2024": 472,
+    "AircraftCarriers_2025": 11,
+    "HelicopterCarriers_2025": 9
+  },
+  {
+    "flagCode": "SE",
+    "country": "Sweden",
+    "TotalNavalAssets_2024": 353,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "ID",
+    "country": "Indonesia",
+    "TotalNavalAssets_2024": 333,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "IT",
+    "country": "Italy",
+    "TotalNavalAssets_2024": 309,
+    "AircraftCarriers_2025": 2,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "IN",
+    "country": "India",
+    "TotalNavalAssets_2024": 294,
+    "AircraftCarriers_2025": 2,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "TH",
+    "country": "Thailand",
+    "TotalNavalAssets_2024": 293,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": 1
+  },
+  {
+    "flagCode": "LK",
+    "country": "Sri Lanka",
+    "TotalNavalAssets_2024": 270,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "FI",
+    "country": "Finland",
+    "TotalNavalAssets_2024": 246,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "CO",
+    "country": "Colombia",
+    "TotalNavalAssets_2024": 237,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "MM",
+    "country": "Myanmar",
+    "TotalNavalAssets_2024": 227,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "DZ",
+    "country": "Algeria",
+    "TotalNavalAssets_2024": 213,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "KR",
+    "country": "South Korea",
+    "TotalNavalAssets_2024": 200,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": 2
+  },
+  {
+    "flagCode": "MX",
+    "country": "Mexico",
+    "TotalNavalAssets_2024": 194,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "GR",
+    "country": "Greece",
+    "TotalNavalAssets_2024": 187,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "TR",
+    "country": "Turkey",
+    "TotalNavalAssets_2024": 186,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": 1
+  },
+  {
+    "flagCode": "BO",
+    "country": "Bolivia",
+    "TotalNavalAssets_2024": 173,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "ES",
+    "country": "Spain",
+    "TotalNavalAssets_2024": 168,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "JP",
+    "country": "Japan",
+    "TotalNavalAssets_2024": 155,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": 4
+  },
+  {
+    "flagCode": "EG",
+    "country": "Egypt",
+    "TotalNavalAssets_2024": 140,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": 2
+  },
+  {
+    "flagCode": "BR",
+    "country": "Brazil",
+    "TotalNavalAssets_2024": 134,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": 1
+  },
+  {
+    "flagCode": "NG",
+    "country": "Nigeria",
+    "TotalNavalAssets_2024": 133,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "CL",
+    "country": "Chile",
+    "TotalNavalAssets_2024": 130,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "FR",
+    "country": "France",
+    "TotalNavalAssets_2024": 128,
+    "AircraftCarriers_2025": 1,
+    "HelicopterCarriers_2025": 3
+  },
+  {
+    "flagCode": "KW",
+    "country": "Kuwait",
+    "TotalNavalAssets_2024": 123,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "QA",
+    "country": "Qatar",
+    "TotalNavalAssets_2024": 123,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "MA",
+    "country": "Morocco",
+    "TotalNavalAssets_2024": 121,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "BD",
+    "country": "Bangladesh",
+    "TotalNavalAssets_2024": 117,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "GB",
+    "country": "United Kingdom",
+    "TotalNavalAssets_2024": 117,
+    "AircraftCarriers_2025": 2,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "PK",
+    "country": "Pakistan",
+    "TotalNavalAssets_2024": 114,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "PT",
+    "country": "Portugal",
+    "TotalNavalAssets_2024": 113,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "NL",
+    "country": "Netherlands",
+    "TotalNavalAssets_2024": 112,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "PH",
+    "country": "Philippines",
+    "TotalNavalAssets_2024": 111,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "UA",
+    "country": "Ukraine",
+    "TotalNavalAssets_2024": 104,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "IR",
+    "country": "Iran",
+    "TotalNavalAssets_2024": 101,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "MY",
+    "country": "Malaysia",
+    "TotalNavalAssets_2024": 101,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "VN",
+    "country": "Vietnam",
+    "TotalNavalAssets_2024": 97,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "TW",
+    "country": "Taiwan",
+    "TotalNavalAssets_2024": 93,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "DK",
+    "country": "Denmark",
+    "TotalNavalAssets_2024": 91,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "AE",
+    "country": "United Arab Emirates",
+    "TotalNavalAssets_2024": 79,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "HN",
+    "country": "Honduras",
+    "TotalNavalAssets_2024": 71,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "PE",
+    "country": "Peru",
+    "TotalNavalAssets_2024": 69,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "PY",
+    "country": "Paraguay",
+    "TotalNavalAssets_2024": 69,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "LB",
+    "country": "Lebanon",
+    "TotalNavalAssets_2024": 69,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "IQ",
+    "country": "Iraq",
+    "TotalNavalAssets_2024": 68,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "CA",
+    "country": "Canada",
+    "TotalNavalAssets_2024": 67,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "IL",
+    "country": "Israel",
+    "TotalNavalAssets_2024": 67,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "CM",
+    "country": "Cameroon",
+    "TotalNavalAssets_2024": 65,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "DE",
+    "country": "Germany",
+    "TotalNavalAssets_2024": 64,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "BH",
+    "country": "Bahrain",
+    "TotalNavalAssets_2024": 58,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "SA",
+    "country": "Saudi Arabia",
+    "TotalNavalAssets_2024": 57,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "TN",
+    "country": "Tunisia",
+    "TotalNavalAssets_2024": 52,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "ZA",
+    "country": "South Africa",
+    "TotalNavalAssets_2024": 47,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "SY",
+    "country": "Syria",
+    "TotalNavalAssets_2024": 47,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "PL",
+    "country": "Poland",
+    "TotalNavalAssets_2024": 45,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "LA",
+    "country": "Laos",
+    "TotalNavalAssets_2024": 45,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "PA",
+    "country": "Panama",
+    "TotalNavalAssets_2024": 45,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "TM",
+    "country": "Turkmenistan",
+    "TotalNavalAssets_2024": 44,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "AU",
+    "country": "Australia",
+    "TotalNavalAssets_2024": 43,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": 2
+  },
+  {
+    "flagCode": "SG",
+    "country": "Singapore",
+    "TotalNavalAssets_2024": 43,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "AR",
+    "country": "Argentina",
+    "TotalNavalAssets_2024": 41,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "AO",
+    "country": "Angola",
+    "TotalNavalAssets_2024": 40,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "BG",
+    "country": "Bulgaria",
+    "TotalNavalAssets_2024": 40,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "YE",
+    "country": "Yemen",
+    "TotalNavalAssets_2024": 38,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "DO",
+    "country": "Dominican Republic",
+    "TotalNavalAssets_2024": 34,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "VE",
+    "country": "Venezuela",
+    "TotalNavalAssets_2024": 32,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "HR",
+    "country": "Croatia",
+    "TotalNavalAssets_2024": 32,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "KH",
+    "country": "Cambodia",
+    "TotalNavalAssets_2024": 31,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "RS",
+    "country": "Serbia",
+    "TotalNavalAssets_2024": 29,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "GH",
+    "country": "Ghana",
+    "TotalNavalAssets_2024": 27,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "EC",
+    "country": "Ecuador",
+    "TotalNavalAssets_2024": 27,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "JO",
+    "country": "Jordan",
+    "TotalNavalAssets_2024": 27,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "GT",
+    "country": "Guatemala",
+    "TotalNavalAssets_2024": 25,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "NO",
+    "country": "Norway",
+    "TotalNavalAssets_2024": 25,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "CU",
+    "country": "Cuba",
+    "TotalNavalAssets_2024": 24,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "AZ",
+    "country": "Azerbaijan",
+    "TotalNavalAssets_2024": 24,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "NI",
+    "country": "Nicaragua",
+    "TotalNavalAssets_2024": 23,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "ER",
+    "country": "Eritrea",
+    "TotalNavalAssets_2024": 23,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "OM",
+    "country": "Oman",
+    "TotalNavalAssets_2024": 22,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "RO",
+    "country": "Romania",
+    "TotalNavalAssets_2024": 20,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "KE",
+    "country": "Kenya",
+    "TotalNavalAssets_2024": 19,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "GE",
+    "country": "Georgia",
+    "TotalNavalAssets_2024": 19,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "AL",
+    "country": "Albania",
+    "TotalNavalAssets_2024": 19,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "KZ",
+    "country": "Kazakhstan",
+    "TotalNavalAssets_2024": 18,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "LV",
+    "country": "Latvia",
+    "TotalNavalAssets_2024": 18,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "CD",
+    "country": "DR Congo",
+    "TotalNavalAssets_2024": 16,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "SR",
+    "country": "Suriname",
+    "TotalNavalAssets_2024": 16,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "SV",
+    "country": "El Salvador",
+    "TotalNavalAssets_2024": 15,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "ME",
+    "country": "Montenegro",
+    "TotalNavalAssets_2024": 13,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "TZ",
+    "country": "Tanzania",
+    "TotalNavalAssets_2024": 12,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "SD",
+    "country": "Sudan",
+    "TotalNavalAssets_2024": 12,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "SO",
+    "country": "Somalia",
+    "TotalNavalAssets_2024": 11,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "UY",
+    "country": "Uruguay",
+    "TotalNavalAssets_2024": 11,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "LT",
+    "country": "Lithuania",
+    "TotalNavalAssets_2024": 11,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "SL",
+    "country": "Sierra Leone",
+    "TotalNavalAssets_2024": 10,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "EE",
+    "country": "Estonia",
+    "TotalNavalAssets_2024": 10,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "BE",
+    "country": "Belgium",
+    "TotalNavalAssets_2024": 9,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "NZ",
+    "country": "New Zealand",
+    "TotalNavalAssets_2024": 9,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "MZ",
+    "country": "Mozambique",
+    "TotalNavalAssets_2024": 8,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "MG",
+    "country": "Madagascar",
+    "TotalNavalAssets_2024": 8,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "NA",
+    "country": "Namibia",
+    "TotalNavalAssets_2024": 8,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "BZ",
+    "country": "Belize",
+    "TotalNavalAssets_2024": 8,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "CI",
+    "country": "Ivory Coast",
+    "TotalNavalAssets_2024": 7,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "BJ",
+    "country": "Benin",
+    "TotalNavalAssets_2024": 7,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "LY",
+    "country": "Libya",
+    "TotalNavalAssets_2024": 7,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "CG",
+    "country": "Republic of the Congo",
+    "TotalNavalAssets_2024": 6,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "LR",
+    "country": "Liberia",
+    "TotalNavalAssets_2024": 6,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "IE",
+    "country": "Ireland",
+    "TotalNavalAssets_2024": 6,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "MR",
+    "country": "Mauritania",
+    "TotalNavalAssets_2024": 5,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "GA",
+    "country": "Gabon",
+    "TotalNavalAssets_2024": 5,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "SN",
+    "country": "Senegal",
+    "TotalNavalAssets_2024": 4,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": "SI",
+    "country": "Slovenia",
+    "TotalNavalAssets_2024": 2,
+    "AircraftCarriers_2025": null,
+    "HelicopterCarriers_2025": null
+  },
+  {
+    "flagCode": null,
+    "country": "Total",
+    "TotalNavalAssets_2024": 10962,
+    "AircraftCarriers_2025": 22,
+    "HelicopterCarriers_2025": 29
+  }
+]

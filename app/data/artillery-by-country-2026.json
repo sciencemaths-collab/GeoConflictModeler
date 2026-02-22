@@ -1,0 +1,978 @@
+[
+  {
+    "flagCode": "RU",
+    "country": "Russia",
+    "TotalStocks_2024": 17629,
+    "SelfPropelledArtilleryStrength_2024": 6208,
+    "TowedArtilleryStrength_2024": 8356,
+    "MultipleLaunchRocketProjector_2024": 3065
+  },
+  {
+    "flagCode": "KP",
+    "country": "North Korea",
+    "TotalStocks_2024": 11920,
+    "SelfPropelledArtilleryStrength_2024": 4500,
+    "TowedArtilleryStrength_2024": 4500,
+    "MultipleLaunchRocketProjector_2024": 2920
+  },
+  {
+    "flagCode": "KR",
+    "country": "South Korea",
+    "TotalStocks_2024": 8633,
+    "SelfPropelledArtilleryStrength_2024": 3189,
+    "TowedArtilleryStrength_2024": 4863,
+    "MultipleLaunchRocketProjector_2024": 581
+  },
+  {
+    "flagCode": "CN",
+    "country": "China",
+    "TotalStocks_2024": 8464,
+    "SelfPropelledArtilleryStrength_2024": 3850,
+    "TowedArtilleryStrength_2024": 1434,
+    "MultipleLaunchRocketProjector_2024": 3180
+  },
+  {
+    "flagCode": "PK",
+    "country": "Pakistan",
+    "TotalStocks_2024": 4592,
+    "SelfPropelledArtilleryStrength_2024": 752,
+    "TowedArtilleryStrength_2024": 3238,
+    "MultipleLaunchRocketProjector_2024": 602
+  },
+  {
+    "flagCode": "EG",
+    "country": "Egypt",
+    "TotalStocks_2024": 4165,
+    "SelfPropelledArtilleryStrength_2024": 1489,
+    "TowedArtilleryStrength_2024": 1557,
+    "MultipleLaunchRocketProjector_2024": 1119
+  },
+  {
+    "flagCode": "IN",
+    "country": "India",
+    "TotalStocks_2024": 4085,
+    "SelfPropelledArtilleryStrength_2024": 140,
+    "TowedArtilleryStrength_2024": 3243,
+    "MultipleLaunchRocketProjector_2024": 702
+  },
+  {
+    "flagCode": "SA",
+    "country": "Saudi Arabia",
+    "TotalStocks_2024": 3743,
+    "SelfPropelledArtilleryStrength_2024": 1236,
+    "TowedArtilleryStrength_2024": 2017,
+    "MultipleLaunchRocketProjector_2024": 490
+  },
+  {
+    "flagCode": "US",
+    "country": "United States",
+    "TotalStocks_2024": 3556,
+    "SelfPropelledArtilleryStrength_2024": 1595,
+    "TowedArtilleryStrength_2024": 1267,
+    "MultipleLaunchRocketProjector_2024": 694
+  },
+  {
+    "flagCode": "IR",
+    "country": "Iran",
+    "TotalStocks_2024": 3405,
+    "SelfPropelledArtilleryStrength_2024": 580,
+    "TowedArtilleryStrength_2024": 2050,
+    "MultipleLaunchRocketProjector_2024": 775
+  },
+  {
+    "flagCode": "SY",
+    "country": "Syria",
+    "TotalStocks_2024": 3309,
+    "SelfPropelledArtilleryStrength_2024": 295,
+    "TowedArtilleryStrength_2024": 2400,
+    "MultipleLaunchRocketProjector_2024": 614
+  },
+  {
+    "flagCode": "TR",
+    "country": "Turkey",
+    "TotalStocks_2024": 3071,
+    "SelfPropelledArtilleryStrength_2024": 1038,
+    "TowedArtilleryStrength_2024": 1747,
+    "MultipleLaunchRocketProjector_2024": 286
+  },
+  {
+    "flagCode": "UA",
+    "country": "Ukraine",
+    "TotalStocks_2024": 2708,
+    "SelfPropelledArtilleryStrength_2024": 1205,
+    "TowedArtilleryStrength_2024": 1012,
+    "MultipleLaunchRocketProjector_2024": 491
+  },
+  {
+    "flagCode": "MM",
+    "country": "Myanmar",
+    "TotalStocks_2024": 2669,
+    "SelfPropelledArtilleryStrength_2024": 215,
+    "TowedArtilleryStrength_2024": 1868,
+    "MultipleLaunchRocketProjector_2024": 586
+  },
+  {
+    "flagCode": "IQ",
+    "country": "Iraq",
+    "TotalStocks_2024": 2152,
+    "SelfPropelledArtilleryStrength_2024": 281,
+    "TowedArtilleryStrength_2024": 1446,
+    "MultipleLaunchRocketProjector_2024": 425
+  },
+  {
+    "flagCode": "TW",
+    "country": "Taiwan",
+    "TotalStocks_2024": 1643,
+    "SelfPropelledArtilleryStrength_2024": 300,
+    "TowedArtilleryStrength_2024": 1120,
+    "MultipleLaunchRocketProjector_2024": 223
+  },
+  {
+    "flagCode": "GR",
+    "country": "Greece",
+    "TotalStocks_2024": 1470,
+    "SelfPropelledArtilleryStrength_2024": 589,
+    "TowedArtilleryStrength_2024": 729,
+    "MultipleLaunchRocketProjector_2024": 152
+  },
+  {
+    "flagCode": "VN",
+    "country": "Vietnam",
+    "TotalStocks_2024": 1330,
+    "SelfPropelledArtilleryStrength_2024": 180,
+    "TowedArtilleryStrength_2024": 700,
+    "MultipleLaunchRocketProjector_2024": 450
+  },
+  {
+    "flagCode": "MA",
+    "country": "Morocco",
+    "TotalStocks_2024": 1170,
+    "SelfPropelledArtilleryStrength_2024": 656,
+    "TowedArtilleryStrength_2024": 306,
+    "MultipleLaunchRocketProjector_2024": 208
+  },
+  {
+    "flagCode": "KZ",
+    "country": "Kazakhstan",
+    "TotalStocks_2024": 1103,
+    "SelfPropelledArtilleryStrength_2024": 246,
+    "TowedArtilleryStrength_2024": 450,
+    "MultipleLaunchRocketProjector_2024": 407
+  },
+  {
+    "flagCode": "IL",
+    "country": "Israel",
+    "TotalStocks_2024": 1100,
+    "SelfPropelledArtilleryStrength_2024": 650,
+    "TowedArtilleryStrength_2024": 300,
+    "MultipleLaunchRocketProjector_2024": 150
+  },
+  {
+    "flagCode": "RO",
+    "country": "Romania",
+    "TotalStocks_2024": 992,
+    "SelfPropelledArtilleryStrength_2024": 47,
+    "TowedArtilleryStrength_2024": 720,
+    "MultipleLaunchRocketProjector_2024": 225
+  },
+  {
+    "flagCode": "DZ",
+    "country": "Algeria",
+    "TotalStocks_2024": 943,
+    "SelfPropelledArtilleryStrength_2024": 224,
+    "TowedArtilleryStrength_2024": 483,
+    "MultipleLaunchRocketProjector_2024": 236
+  },
+  {
+    "flagCode": "FI",
+    "country": "Finland",
+    "TotalStocks_2024": 868,
+    "SelfPropelledArtilleryStrength_2024": 125,
+    "TowedArtilleryStrength_2024": 667,
+    "MultipleLaunchRocketProjector_2024": 76
+  },
+  {
+    "flagCode": "AZ",
+    "country": "Azerbaijan",
+    "TotalStocks_2024": 812,
+    "SelfPropelledArtilleryStrength_2024": 294,
+    "TowedArtilleryStrength_2024": 300,
+    "MultipleLaunchRocketProjector_2024": 218
+  },
+  {
+    "flagCode": "ET",
+    "country": "Ethiopia",
+    "TotalStocks_2024": 792,
+    "SelfPropelledArtilleryStrength_2024": 65,
+    "TowedArtilleryStrength_2024": 648,
+    "MultipleLaunchRocketProjector_2024": 79
+  },
+  {
+    "flagCode": "BY",
+    "country": "Belarus",
+    "TotalStocks_2024": 745,
+    "SelfPropelledArtilleryStrength_2024": 369,
+    "TowedArtilleryStrength_2024": 170,
+    "MultipleLaunchRocketProjector_2024": 206
+  },
+  {
+    "flagCode": "KH",
+    "country": "Cambodia",
+    "TotalStocks_2024": 737,
+    "SelfPropelledArtilleryStrength_2024": 25,
+    "TowedArtilleryStrength_2024": 215,
+    "MultipleLaunchRocketProjector_2024": 497
+  },
+  {
+    "flagCode": "PL",
+    "country": "Poland",
+    "TotalStocks_2024": 736,
+    "SelfPropelledArtilleryStrength_2024": 525,
+    "TowedArtilleryStrength_2024": null,
+    "MultipleLaunchRocketProjector_2024": 211
+  },
+  {
+    "flagCode": "BR",
+    "country": "Brazil",
+    "TotalStocks_2024": 710,
+    "SelfPropelledArtilleryStrength_2024": 172,
+    "TowedArtilleryStrength_2024": 460,
+    "MultipleLaunchRocketProjector_2024": 78
+  },
+  {
+    "flagCode": "JP",
+    "country": "Japan",
+    "TotalStocks_2024": 707,
+    "SelfPropelledArtilleryStrength_2024": 173,
+    "TowedArtilleryStrength_2024": 480,
+    "MultipleLaunchRocketProjector_2024": 54
+  },
+  {
+    "flagCode": "AO",
+    "country": "Angola",
+    "TotalStocks_2024": 703,
+    "SelfPropelledArtilleryStrength_2024": 28,
+    "TowedArtilleryStrength_2024": 552,
+    "MultipleLaunchRocketProjector_2024": 123
+  },
+  {
+    "flagCode": "TM",
+    "country": "Turkmenistan",
+    "TotalStocks_2024": 690,
+    "SelfPropelledArtilleryStrength_2024": 73,
+    "TowedArtilleryStrength_2024": 457,
+    "MultipleLaunchRocketProjector_2024": 160
+  },
+  {
+    "flagCode": "BA",
+    "country": "Bosnia and Herzegovina",
+    "TotalStocks_2024": 669,
+    "SelfPropelledArtilleryStrength_2024": 10,
+    "TowedArtilleryStrength_2024": 580,
+    "MultipleLaunchRocketProjector_2024": 79
+  },
+  {
+    "flagCode": "TH",
+    "country": "Thailand",
+    "TotalStocks_2024": 665,
+    "SelfPropelledArtilleryStrength_2024": 50,
+    "TowedArtilleryStrength_2024": 589,
+    "MultipleLaunchRocketProjector_2024": 26
+  },
+  {
+    "flagCode": "ID",
+    "country": "Indonesia",
+    "TotalStocks_2024": 630,
+    "SelfPropelledArtilleryStrength_2024": 153,
+    "TowedArtilleryStrength_2024": 414,
+    "MultipleLaunchRocketProjector_2024": 63
+  },
+  {
+    "flagCode": "SD",
+    "country": "Sudan",
+    "TotalStocks_2024": 543,
+    "SelfPropelledArtilleryStrength_2024": 75,
+    "TowedArtilleryStrength_2024": 125,
+    "MultipleLaunchRocketProjector_2024": 343
+  },
+  {
+    "flagCode": "BD",
+    "country": "Bangladesh",
+    "TotalStocks_2024": 535,
+    "SelfPropelledArtilleryStrength_2024": 27,
+    "TowedArtilleryStrength_2024": 437,
+    "MultipleLaunchRocketProjector_2024": 71
+  },
+  {
+    "flagCode": "LB",
+    "country": "Lebanon",
+    "TotalStocks_2024": 488,
+    "SelfPropelledArtilleryStrength_2024": 84,
+    "TowedArtilleryStrength_2024": 374,
+    "MultipleLaunchRocketProjector_2024": 30
+  },
+  {
+    "flagCode": "AE",
+    "country": "United Arab Emirates",
+    "TotalStocks_2024": 444,
+    "SelfPropelledArtilleryStrength_2024": 183,
+    "TowedArtilleryStrength_2024": 99,
+    "MultipleLaunchRocketProjector_2024": 162
+  },
+  {
+    "flagCode": "ER",
+    "country": "Eritrea",
+    "TotalStocks_2024": 429,
+    "SelfPropelledArtilleryStrength_2024": 54,
+    "TowedArtilleryStrength_2024": 156,
+    "MultipleLaunchRocketProjector_2024": 219
+  },
+  {
+    "flagCode": "KG",
+    "country": "Kyrgyzstan",
+    "TotalStocks_2024": 416,
+    "SelfPropelledArtilleryStrength_2024": 74,
+    "TowedArtilleryStrength_2024": 306,
+    "MultipleLaunchRocketProjector_2024": 36
+  },
+  {
+    "flagCode": "NG",
+    "country": "Nigeria",
+    "TotalStocks_2024": 408,
+    "SelfPropelledArtilleryStrength_2024": 32,
+    "TowedArtilleryStrength_2024": 339,
+    "MultipleLaunchRocketProjector_2024": 37
+  },
+  {
+    "flagCode": "PE",
+    "country": "Peru",
+    "TotalStocks_2024": 371,
+    "SelfPropelledArtilleryStrength_2024": 12,
+    "TowedArtilleryStrength_2024": 286,
+    "MultipleLaunchRocketProjector_2024": 73
+  },
+  {
+    "flagCode": "JO",
+    "country": "Jordan",
+    "TotalStocks_2024": 371,
+    "SelfPropelledArtilleryStrength_2024": 199,
+    "TowedArtilleryStrength_2024": 84,
+    "MultipleLaunchRocketProjector_2024": 88
+  },
+  {
+    "flagCode": "GE",
+    "country": "Georgia",
+    "TotalStocks_2024": 349,
+    "SelfPropelledArtilleryStrength_2024": 94,
+    "TowedArtilleryStrength_2024": 173,
+    "MultipleLaunchRocketProjector_2024": 82
+  },
+  {
+    "flagCode": "CU",
+    "country": "Cuba",
+    "TotalStocks_2024": 335,
+    "SelfPropelledArtilleryStrength_2024": 60,
+    "TowedArtilleryStrength_2024": 260,
+    "MultipleLaunchRocketProjector_2024": 15
+  },
+  {
+    "flagCode": "HU",
+    "country": "Hungary",
+    "TotalStocks_2024": 318,
+    "SelfPropelledArtilleryStrength_2024": 23,
+    "TowedArtilleryStrength_2024": 295,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "PH",
+    "country": "Philippines",
+    "TotalStocks_2024": 301,
+    "SelfPropelledArtilleryStrength_2024": 12,
+    "TowedArtilleryStrength_2024": 289,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "BG",
+    "country": "Bulgaria",
+    "TotalStocks_2024": 297,
+    "SelfPropelledArtilleryStrength_2024": 48,
+    "TowedArtilleryStrength_2024": 225,
+    "MultipleLaunchRocketProjector_2024": 24
+  },
+  {
+    "flagCode": "CL",
+    "country": "Chile",
+    "TotalStocks_2024": 293,
+    "SelfPropelledArtilleryStrength_2024": 48,
+    "TowedArtilleryStrength_2024": 225,
+    "MultipleLaunchRocketProjector_2024": 20
+  },
+  {
+    "flagCode": "HR",
+    "country": "Croatia",
+    "TotalStocks_2024": 286,
+    "SelfPropelledArtilleryStrength_2024": 18,
+    "TowedArtilleryStrength_2024": 163,
+    "MultipleLaunchRocketProjector_2024": 105
+  },
+  {
+    "flagCode": "AM",
+    "country": "Armenia",
+    "TotalStocks_2024": 282,
+    "SelfPropelledArtilleryStrength_2024": 37,
+    "TowedArtilleryStrength_2024": 145,
+    "MultipleLaunchRocketProjector_2024": 100
+  },
+  {
+    "flagCode": "MN",
+    "country": "Mongolia",
+    "TotalStocks_2024": 270,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 150,
+    "MultipleLaunchRocketProjector_2024": 120
+  },
+  {
+    "flagCode": "ZA",
+    "country": "South Africa",
+    "TotalStocks_2024": 254,
+    "SelfPropelledArtilleryStrength_2024": 49,
+    "TowedArtilleryStrength_2024": 104,
+    "MultipleLaunchRocketProjector_2024": 101
+  },
+  {
+    "flagCode": "AR",
+    "country": "Argentina",
+    "TotalStocks_2024": 248,
+    "SelfPropelledArtilleryStrength_2024": 50,
+    "TowedArtilleryStrength_2024": 172,
+    "MultipleLaunchRocketProjector_2024": 26
+  },
+  {
+    "flagCode": "RS",
+    "country": "Serbia",
+    "TotalStocks_2024": 244,
+    "SelfPropelledArtilleryStrength_2024": 90,
+    "TowedArtilleryStrength_2024": 72,
+    "MultipleLaunchRocketProjector_2024": 82
+  },
+  {
+    "flagCode": "GB",
+    "country": "United Kingdom",
+    "TotalStocks_2024": 238,
+    "SelfPropelledArtilleryStrength_2024": 71,
+    "TowedArtilleryStrength_2024": 126,
+    "MultipleLaunchRocketProjector_2024": 41
+  },
+  {
+    "flagCode": "ES",
+    "country": "Spain",
+    "TotalStocks_2024": 236,
+    "SelfPropelledArtilleryStrength_2024": 96,
+    "TowedArtilleryStrength_2024": 140,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "MK",
+    "country": "North Macedonia",
+    "TotalStocks_2024": 233,
+    "SelfPropelledArtilleryStrength_2024": 18,
+    "TowedArtilleryStrength_2024": 191,
+    "MultipleLaunchRocketProjector_2024": 24
+  },
+  {
+    "flagCode": "MY",
+    "country": "Malaysia",
+    "TotalStocks_2024": 232,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 196,
+    "MultipleLaunchRocketProjector_2024": 36
+  },
+  {
+    "flagCode": "UZ",
+    "country": "Uzbekistan",
+    "TotalStocks_2024": 226,
+    "SelfPropelledArtilleryStrength_2024": 83,
+    "TowedArtilleryStrength_2024": null,
+    "MultipleLaunchRocketProjector_2024": 143
+  },
+  {
+    "flagCode": "NI",
+    "country": "Nicaragua",
+    "TotalStocks_2024": 218,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 136,
+    "MultipleLaunchRocketProjector_2024": 82
+  },
+  {
+    "flagCode": "LK",
+    "country": "Sri Lanka",
+    "TotalStocks_2024": 207,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 175,
+    "MultipleLaunchRocketProjector_2024": 32
+  },
+  {
+    "flagCode": "VE",
+    "country": "Venezuela",
+    "TotalStocks_2024": 200,
+    "SelfPropelledArtilleryStrength_2024": 60,
+    "TowedArtilleryStrength_2024": 104,
+    "MultipleLaunchRocketProjector_2024": 36
+  },
+  {
+    "flagCode": "IT",
+    "country": "Italy",
+    "TotalStocks_2024": 193,
+    "SelfPropelledArtilleryStrength_2024": 64,
+    "TowedArtilleryStrength_2024": 108,
+    "MultipleLaunchRocketProjector_2024": 21
+  },
+  {
+    "flagCode": "LA",
+    "country": "Laos",
+    "TotalStocks_2024": 191,
+    "SelfPropelledArtilleryStrength_2024": 40,
+    "TowedArtilleryStrength_2024": 87,
+    "MultipleLaunchRocketProjector_2024": 64
+  },
+  {
+    "flagCode": "EC",
+    "country": "Ecuador",
+    "TotalStocks_2024": 190,
+    "SelfPropelledArtilleryStrength_2024": 15,
+    "TowedArtilleryStrength_2024": 140,
+    "MultipleLaunchRocketProjector_2024": 35
+  },
+  {
+    "flagCode": "CD",
+    "country": "DR Congo",
+    "TotalStocks_2024": 185,
+    "SelfPropelledArtilleryStrength_2024": 15,
+    "TowedArtilleryStrength_2024": 120,
+    "MultipleLaunchRocketProjector_2024": 50
+  },
+  {
+    "flagCode": "DE",
+    "country": "Germany",
+    "TotalStocks_2024": 167,
+    "SelfPropelledArtilleryStrength_2024": 134,
+    "TowedArtilleryStrength_2024": null,
+    "MultipleLaunchRocketProjector_2024": 33
+  },
+  {
+    "flagCode": "OM",
+    "country": "Oman",
+    "TotalStocks_2024": 165,
+    "SelfPropelledArtilleryStrength_2024": 24,
+    "TowedArtilleryStrength_2024": 141,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "SG",
+    "country": "Singapore",
+    "TotalStocks_2024": 161,
+    "SelfPropelledArtilleryStrength_2024": 48,
+    "TowedArtilleryStrength_2024": 89,
+    "MultipleLaunchRocketProjector_2024": 24
+  },
+  {
+    "flagCode": "TJ",
+    "country": "Tajikistan",
+    "TotalStocks_2024": 135,
+    "SelfPropelledArtilleryStrength_2024": 35,
+    "TowedArtilleryStrength_2024": 55,
+    "MultipleLaunchRocketProjector_2024": 45
+  },
+  {
+    "flagCode": "CH",
+    "country": "Switzerland",
+    "TotalStocks_2024": 133,
+    "SelfPropelledArtilleryStrength_2024": 133,
+    "TowedArtilleryStrength_2024": null,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "LY",
+    "country": "Libya",
+    "TotalStocks_2024": 130,
+    "SelfPropelledArtilleryStrength_2024": 10,
+    "TowedArtilleryStrength_2024": 65,
+    "MultipleLaunchRocketProjector_2024": 55
+  },
+  {
+    "flagCode": "CO",
+    "country": "Colombia",
+    "TotalStocks_2024": 116,
+    "SelfPropelledArtilleryStrength_2024": 6,
+    "TowedArtilleryStrength_2024": 110,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "MZ",
+    "country": "Mozambique",
+    "TotalStocks_2024": 116,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 104,
+    "MultipleLaunchRocketProjector_2024": 12
+  },
+  {
+    "flagCode": "CG",
+    "country": "Republic of the Congo",
+    "TotalStocks_2024": 109,
+    "SelfPropelledArtilleryStrength_2024": 2,
+    "TowedArtilleryStrength_2024": 35,
+    "MultipleLaunchRocketProjector_2024": 72
+  },
+  {
+    "flagCode": "TN",
+    "country": "Tunisia",
+    "TotalStocks_2024": 108,
+    "SelfPropelledArtilleryStrength_2024": 48,
+    "TowedArtilleryStrength_2024": 60,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "PT",
+    "country": "Portugal",
+    "TotalStocks_2024": 106,
+    "SelfPropelledArtilleryStrength_2024": 24,
+    "TowedArtilleryStrength_2024": 82,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "FR",
+    "country": "France",
+    "TotalStocks_2024": 105,
+    "SelfPropelledArtilleryStrength_2024": 96,
+    "TowedArtilleryStrength_2024": null,
+    "MultipleLaunchRocketProjector_2024": 9
+  },
+  {
+    "flagCode": "KW",
+    "country": "Kuwait",
+    "TotalStocks_2024": 101,
+    "SelfPropelledArtilleryStrength_2024": 74,
+    "TowedArtilleryStrength_2024": null,
+    "MultipleLaunchRocketProjector_2024": 27
+  },
+  {
+    "flagCode": "MX",
+    "country": "Mexico",
+    "TotalStocks_2024": 90,
+    "SelfPropelledArtilleryStrength_2024": 10,
+    "TowedArtilleryStrength_2024": 80,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "CM",
+    "country": "Cameroon",
+    "TotalStocks_2024": 90,
+    "SelfPropelledArtilleryStrength_2024": 18,
+    "TowedArtilleryStrength_2024": 52,
+    "MultipleLaunchRocketProjector_2024": 20
+  },
+  {
+    "flagCode": "ZM",
+    "country": "Zambia",
+    "TotalStocks_2024": 81,
+    "SelfPropelledArtilleryStrength_2024": 6,
+    "TowedArtilleryStrength_2024": 40,
+    "MultipleLaunchRocketProjector_2024": 35
+  },
+  {
+    "flagCode": "UY",
+    "country": "Uruguay",
+    "TotalStocks_2024": 81,
+    "SelfPropelledArtilleryStrength_2024": 6,
+    "TowedArtilleryStrength_2024": 71,
+    "MultipleLaunchRocketProjector_2024": 4
+  },
+  {
+    "flagCode": "BH",
+    "country": "Bahrain",
+    "TotalStocks_2024": 81,
+    "SelfPropelledArtilleryStrength_2024": 38,
+    "TowedArtilleryStrength_2024": 26,
+    "MultipleLaunchRocketProjector_2024": 17
+  },
+  {
+    "flagCode": "LT",
+    "country": "Lithuania",
+    "TotalStocks_2024": 75,
+    "SelfPropelledArtilleryStrength_2024": 21,
+    "TowedArtilleryStrength_2024": 54,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "QA",
+    "country": "Qatar",
+    "TotalStocks_2024": 74,
+    "SelfPropelledArtilleryStrength_2024": 46,
+    "TowedArtilleryStrength_2024": 12,
+    "MultipleLaunchRocketProjector_2024": 16
+  },
+  {
+    "flagCode": "NL",
+    "country": "Netherlands",
+    "TotalStocks_2024": 72,
+    "SelfPropelledArtilleryStrength_2024": 49,
+    "TowedArtilleryStrength_2024": 23,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "KE",
+    "country": "Kenya",
+    "TotalStocks_2024": 71,
+    "SelfPropelledArtilleryStrength_2024": 18,
+    "TowedArtilleryStrength_2024": 53,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "SV",
+    "country": "El Salvador",
+    "TotalStocks_2024": 70,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 70,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "SK",
+    "country": "Slovakia",
+    "TotalStocks_2024": 69,
+    "SelfPropelledArtilleryStrength_2024": 35,
+    "TowedArtilleryStrength_2024": 9,
+    "MultipleLaunchRocketProjector_2024": 25
+  },
+  {
+    "flagCode": "BW",
+    "country": "Botswana",
+    "TotalStocks_2024": 68,
+    "SelfPropelledArtilleryStrength_2024": 12,
+    "TowedArtilleryStrength_2024": 36,
+    "MultipleLaunchRocketProjector_2024": 20
+  },
+  {
+    "flagCode": "LV",
+    "country": "Latvia",
+    "TotalStocks_2024": 59,
+    "SelfPropelledArtilleryStrength_2024": 59,
+    "TowedArtilleryStrength_2024": null,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "NA",
+    "country": "Namibia",
+    "TotalStocks_2024": 57,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 50,
+    "MultipleLaunchRocketProjector_2024": 7
+  },
+  {
+    "flagCode": "NO",
+    "country": "Norway",
+    "TotalStocks_2024": 56,
+    "SelfPropelledArtilleryStrength_2024": 56,
+    "TowedArtilleryStrength_2024": null,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "BO",
+    "country": "Bolivia",
+    "TotalStocks_2024": 55,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 55,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "CZ",
+    "country": "Czechia",
+    "TotalStocks_2024": 53,
+    "SelfPropelledArtilleryStrength_2024": 53,
+    "TowedArtilleryStrength_2024": null,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "AT",
+    "country": "Austria",
+    "TotalStocks_2024": 53,
+    "SelfPropelledArtilleryStrength_2024": 53,
+    "TowedArtilleryStrength_2024": null,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "GT",
+    "country": "Guatemala",
+    "TotalStocks_2024": 50,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 50,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "AU",
+    "country": "Australia",
+    "TotalStocks_2024": 48,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 48,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "TD",
+    "country": "Chad",
+    "TotalStocks_2024": 46,
+    "SelfPropelledArtilleryStrength_2024": 10,
+    "TowedArtilleryStrength_2024": 15,
+    "MultipleLaunchRocketProjector_2024": 21
+  },
+  {
+    "flagCode": "UG",
+    "country": "Uganda",
+    "TotalStocks_2024": 44,
+    "SelfPropelledArtilleryStrength_2024": 6,
+    "TowedArtilleryStrength_2024": 26,
+    "MultipleLaunchRocketProjector_2024": 12
+  },
+  {
+    "flagCode": "YE",
+    "country": "Yemen",
+    "TotalStocks_2024": 39,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 26,
+    "MultipleLaunchRocketProjector_2024": 13
+  },
+  {
+    "flagCode": "ML",
+    "country": "Mali",
+    "TotalStocks_2024": 35,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 10,
+    "MultipleLaunchRocketProjector_2024": 25
+  },
+  {
+    "flagCode": "SS",
+    "country": "South Sudan",
+    "TotalStocks_2024": 32,
+    "SelfPropelledArtilleryStrength_2024": 20,
+    "TowedArtilleryStrength_2024": null,
+    "MultipleLaunchRocketProjector_2024": 12
+  },
+  {
+    "flagCode": "HN",
+    "country": "Honduras",
+    "TotalStocks_2024": 32,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 32,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "GA",
+    "country": "Gabon",
+    "TotalStocks_2024": 32,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 4,
+    "MultipleLaunchRocketProjector_2024": 28
+  },
+  {
+    "flagCode": "NZ",
+    "country": "New Zealand",
+    "TotalStocks_2024": 31,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 31,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "EE",
+    "country": "Estonia",
+    "TotalStocks_2024": 30,
+    "SelfPropelledArtilleryStrength_2024": 24,
+    "TowedArtilleryStrength_2024": null,
+    "MultipleLaunchRocketProjector_2024": 6
+  },
+  {
+    "flagCode": "PY",
+    "country": "Paraguay",
+    "TotalStocks_2024": 28,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 28,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "SN",
+    "country": "Senegal",
+    "TotalStocks_2024": 26,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 20,
+    "MultipleLaunchRocketProjector_2024": 6
+  },
+  {
+    "flagCode": "SE",
+    "country": "Sweden",
+    "TotalStocks_2024": 26,
+    "SelfPropelledArtilleryStrength_2024": 26,
+    "TowedArtilleryStrength_2024": null,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "SI",
+    "country": "Slovenia",
+    "TotalStocks_2024": 26,
+    "SelfPropelledArtilleryStrength_2024": 8,
+    "TowedArtilleryStrength_2024": 18,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "DO",
+    "country": "Dominican Republic",
+    "TotalStocks_2024": 25,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 25,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "ME",
+    "country": "Montenegro",
+    "TotalStocks_2024": 24,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 12,
+    "MultipleLaunchRocketProjector_2024": 12
+  },
+  {
+    "flagCode": "GH",
+    "country": "Ghana",
+    "TotalStocks_2024": 21,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 6,
+    "MultipleLaunchRocketProjector_2024": 15
+  },
+  {
+    "flagCode": "DK",
+    "country": "Denmark",
+    "TotalStocks_2024": 19,
+    "SelfPropelledArtilleryStrength_2024": 19,
+    "TowedArtilleryStrength_2024": null,
+    "MultipleLaunchRocketProjector_2024": null
+  },
+  {
+    "flagCode": "BF",
+    "country": "Burkina Faso",
+    "TotalStocks_2024": 17,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 12,
+    "MultipleLaunchRocketProjector_2024": 5
+  },
+  {
+    "flagCode": "CI",
+    "country": "Ivory Coast",
+    "TotalStocks_2024": 10,
+    "SelfPropelledArtilleryStrength_2024": null,
+    "TowedArtilleryStrength_2024": 4,
+    "MultipleLaunchRocketProjector_2024": 6
+  },
+  {
+    "flagCode": null,
+    "country": "Total",
+    "TotalStocks_2024": 116895,
+    "SelfPropelledArtilleryStrength_2024": 34485,
+    "TowedArtilleryStrength_2024": 59079,
+    "MultipleLaunchRocketProjector_2024": 23331
+  }
+]

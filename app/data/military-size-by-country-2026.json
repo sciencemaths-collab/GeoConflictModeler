@@ -1,0 +1,1418 @@
+[
+  {
+    "flagCode": "CN",
+    "country": "China",
+    "MilitarySizeActiveMilitary_2025": 2035000,
+    "MilitarySizeReserveMilitary_2025": 510000,
+    "MilitarySizeParamilitary_2025": 3045000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 3045000
+  },
+  {
+    "flagCode": "IN",
+    "country": "India",
+    "MilitarySizeActiveMilitary_2025": 1475750,
+    "MilitarySizeReserveMilitary_2025": 1155000,
+    "MilitarySizeParamilitary_2025": 4246800,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 4246800
+  },
+  {
+    "flagCode": "US",
+    "country": "United States",
+    "MilitarySizeActiveMilitary_2025": 1315600,
+    "MilitarySizeReserveMilitary_2025": 797200,
+    "MilitarySizeParamilitary_2025": 2112800,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 2112800
+  },
+  {
+    "flagCode": "KP",
+    "country": "North Korea",
+    "MilitarySizeActiveMilitary_2025": 1280000,
+    "MilitarySizeReserveMilitary_2025": 600000,
+    "MilitarySizeParamilitary_2025": 7580000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 7580000
+  },
+  {
+    "flagCode": "RU",
+    "country": "Russia",
+    "MilitarySizeActiveMilitary_2025": 1134000,
+    "MilitarySizeReserveMilitary_2025": 1500000,
+    "MilitarySizeParamilitary_2025": 3203000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 3203000
+  },
+  {
+    "flagCode": "UA",
+    "country": "Ukraine",
+    "MilitarySizeActiveMilitary_2025": 730000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 990000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 990000
+  },
+  {
+    "flagCode": "PK",
+    "country": "Pakistan",
+    "MilitarySizeActiveMilitary_2025": 660000,
+    "MilitarySizeReserveMilitary_2025": 550000,
+    "MilitarySizeParamilitary_2025": 1501000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 1501000
+  },
+  {
+    "flagCode": "IR",
+    "country": "Iran",
+    "MilitarySizeActiveMilitary_2025": 610000,
+    "MilitarySizeReserveMilitary_2025": 350000,
+    "MilitarySizeParamilitary_2025": 1000000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 1000000
+  },
+  {
+    "flagCode": "ET",
+    "country": "Ethiopia",
+    "MilitarySizeActiveMilitary_2025": 503000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 503000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 503000
+  },
+  {
+    "flagCode": "KR",
+    "country": "South Korea",
+    "MilitarySizeActiveMilitary_2025": 500000,
+    "MilitarySizeReserveMilitary_2025": 3100000,
+    "MilitarySizeParamilitary_2025": 6613500,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 6613500
+  },
+  {
+    "flagCode": "VN",
+    "country": "Vietnam",
+    "MilitarySizeActiveMilitary_2025": 450000,
+    "MilitarySizeReserveMilitary_2025": 5000000,
+    "MilitarySizeParamilitary_2025": 5490000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 5490000
+  },
+  {
+    "flagCode": "EG",
+    "country": "Egypt",
+    "MilitarySizeActiveMilitary_2025": 438500,
+    "MilitarySizeReserveMilitary_2025": 479000,
+    "MilitarySizeParamilitary_2025": 1314500,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 1314500
+  },
+  {
+    "flagCode": "ID",
+    "country": "Indonesia",
+    "MilitarySizeActiveMilitary_2025": 404500,
+    "MilitarySizeReserveMilitary_2025": 400000,
+    "MilitarySizeParamilitary_2025": 1094750,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 1094750
+  },
+  {
+    "flagCode": "BR",
+    "country": "Brazil",
+    "MilitarySizeActiveMilitary_2025": 374500,
+    "MilitarySizeReserveMilitary_2025": 1415000,
+    "MilitarySizeParamilitary_2025": 2184500,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 2184500
+  },
+  {
+    "flagCode": "TH",
+    "country": "Thailand",
+    "MilitarySizeActiveMilitary_2025": 360850,
+    "MilitarySizeReserveMilitary_2025": 200000,
+    "MilitarySizeParamilitary_2025": 699550,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 699550
+  },
+  {
+    "flagCode": "TR",
+    "country": "Turkey",
+    "MilitarySizeActiveMilitary_2025": 355200,
+    "MilitarySizeReserveMilitary_2025": 378700,
+    "MilitarySizeParamilitary_2025": 894700,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 894700
+  },
+  {
+    "flagCode": "ER",
+    "country": "Eritrea",
+    "MilitarySizeActiveMilitary_2025": 301750,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 301750,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 301750
+  },
+  {
+    "flagCode": "MX",
+    "country": "Mexico",
+    "MilitarySizeActiveMilitary_2025": 287000,
+    "MilitarySizeReserveMilitary_2025": 81500,
+    "MilitarySizeParamilitary_2025": 505400,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 505400
+  },
+  {
+    "flagCode": "CO",
+    "country": "Colombia",
+    "MilitarySizeActiveMilitary_2025": 269000,
+    "MilitarySizeReserveMilitary_2025": 34950,
+    "MilitarySizeParamilitary_2025": 469000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 469000
+  },
+  {
+    "flagCode": "LK",
+    "country": "Sri Lanka",
+    "MilitarySizeActiveMilitary_2025": 262500,
+    "MilitarySizeReserveMilitary_2025": 5500,
+    "MilitarySizeParamilitary_2025": 362050,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 362050
+  },
+  {
+    "flagCode": "SA",
+    "country": "Saudi Arabia",
+    "MilitarySizeActiveMilitary_2025": 257000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 281500,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 281500
+  },
+  {
+    "flagCode": "JP",
+    "country": "Japan",
+    "MilitarySizeActiveMilitary_2025": 247150,
+    "MilitarySizeReserveMilitary_2025": 55900,
+    "MilitarySizeParamilitary_2025": 317850,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 317850
+  },
+  {
+    "flagCode": "FR",
+    "country": "France",
+    "MilitarySizeActiveMilitary_2025": 202000,
+    "MilitarySizeReserveMilitary_2025": 38500,
+    "MilitarySizeParamilitary_2025": 335600,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 335600
+  },
+  {
+    "flagCode": "MA",
+    "country": "Morocco",
+    "MilitarySizeActiveMilitary_2025": 195800,
+    "MilitarySizeReserveMilitary_2025": 150000,
+    "MilitarySizeParamilitary_2025": 395800,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 395800
+  },
+  {
+    "flagCode": "IQ",
+    "country": "Iraq",
+    "MilitarySizeActiveMilitary_2025": 193000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 459000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 459000
+  },
+  {
+    "flagCode": "DE",
+    "country": "Germany",
+    "MilitarySizeActiveMilitary_2025": 179850,
+    "MilitarySizeReserveMilitary_2025": 34100,
+    "MilitarySizeParamilitary_2025": 213950,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 213950
+  },
+  {
+    "flagCode": "AF",
+    "country": "Afghanistan",
+    "MilitarySizeActiveMilitary_2025": 172000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 172000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 172000
+  },
+  {
+    "flagCode": "BD",
+    "country": "Bangladesh",
+    "MilitarySizeActiveMilitary_2025": 171250,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 235150,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 235150
+  },
+  {
+    "flagCode": "IL",
+    "country": "Israel",
+    "MilitarySizeActiveMilitary_2025": 169500,
+    "MilitarySizeReserveMilitary_2025": 465000,
+    "MilitarySizeParamilitary_2025": 642500,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 642500
+  },
+  {
+    "flagCode": "TW",
+    "country": "Taiwan",
+    "MilitarySizeActiveMilitary_2025": 169000,
+    "MilitarySizeReserveMilitary_2025": 1657000,
+    "MilitarySizeParamilitary_2025": 1837800,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 1837800
+  },
+  {
+    "flagCode": "PL",
+    "country": "Poland",
+    "MilitarySizeActiveMilitary_2025": 164100,
+    "MilitarySizeReserveMilitary_2025": 37500,
+    "MilitarySizeParamilitary_2025": 215900,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 215900
+  },
+  {
+    "flagCode": "IT",
+    "country": "Italy",
+    "MilitarySizeActiveMilitary_2025": 161850,
+    "MilitarySizeReserveMilitary_2025": 14500,
+    "MilitarySizeParamilitary_2025": 354950,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 354950
+  },
+  {
+    "flagCode": "PH",
+    "country": "Philippines",
+    "MilitarySizeActiveMilitary_2025": 146250,
+    "MilitarySizeReserveMilitary_2025": 131000,
+    "MilitarySizeParamilitary_2025": 357950,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 357950
+  },
+  {
+    "flagCode": "NG",
+    "country": "Nigeria",
+    "MilitarySizeActiveMilitary_2025": 143000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 223000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 223000
+  },
+  {
+    "flagCode": "GB",
+    "country": "United Kingdom",
+    "MilitarySizeActiveMilitary_2025": 141100,
+    "MilitarySizeReserveMilitary_2025": 70450,
+    "MilitarySizeParamilitary_2025": 211550,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 211550
+  },
+  {
+    "flagCode": "DZ",
+    "country": "Algeria",
+    "MilitarySizeActiveMilitary_2025": 139000,
+    "MilitarySizeReserveMilitary_2025": 150000,
+    "MilitarySizeParamilitary_2025": 476200,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 476200
+  },
+  {
+    "flagCode": "MM",
+    "country": "Myanmar",
+    "MilitarySizeActiveMilitary_2025": 134000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 204000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 204000
+  },
+  {
+    "flagCode": "GR",
+    "country": "Greece",
+    "MilitarySizeActiveMilitary_2025": 132000,
+    "MilitarySizeReserveMilitary_2025": 289000,
+    "MilitarySizeParamilitary_2025": 428400,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 428400
+  },
+  {
+    "flagCode": "CD",
+    "country": "DR Congo",
+    "MilitarySizeActiveMilitary_2025": 128350,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 128350,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 128350
+  },
+  {
+    "flagCode": "KH",
+    "country": "Cambodia",
+    "MilitarySizeActiveMilitary_2025": 124300,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 191300,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 191300
+  },
+  {
+    "flagCode": "VE",
+    "country": "Venezuela",
+    "MilitarySizeActiveMilitary_2025": 123000,
+    "MilitarySizeReserveMilitary_2025": 8000,
+    "MilitarySizeParamilitary_2025": 351000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 351000
+  },
+  {
+    "flagCode": "ES",
+    "country": "Spain",
+    "MilitarySizeActiveMilitary_2025": 122200,
+    "MilitarySizeReserveMilitary_2025": 13800,
+    "MilitarySizeParamilitary_2025": 223450,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 223450
+  },
+  {
+    "flagCode": "MY",
+    "country": "Malaysia",
+    "MilitarySizeActiveMilitary_2025": 113000,
+    "MilitarySizeReserveMilitary_2025": 51600,
+    "MilitarySizeParamilitary_2025": 431800,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 431800
+  },
+  {
+    "flagCode": "AO",
+    "country": "Angola",
+    "MilitarySizeActiveMilitary_2025": 107000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 117000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 117000
+  },
+  {
+    "flagCode": "SD",
+    "country": "Sudan",
+    "MilitarySizeActiveMilitary_2025": 104300,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 164300,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 164300
+  },
+  {
+    "flagCode": "JO",
+    "country": "Jordan",
+    "MilitarySizeActiveMilitary_2025": 100500,
+    "MilitarySizeReserveMilitary_2025": 65000,
+    "MilitarySizeParamilitary_2025": 180500,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 180500
+  },
+  {
+    "flagCode": "NP",
+    "country": "Nepal",
+    "MilitarySizeActiveMilitary_2025": 96600,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 111600,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 111600
+  },
+  {
+    "flagCode": "SS",
+    "country": "South Sudan",
+    "MilitarySizeActiveMilitary_2025": 90000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 90000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 90000
+  },
+  {
+    "flagCode": "AR",
+    "country": "Argentina",
+    "MilitarySizeActiveMilitary_2025": 83000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 114250,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 114250
+  },
+  {
+    "flagCode": "PE",
+    "country": "Peru",
+    "MilitarySizeActiveMilitary_2025": 81000,
+    "MilitarySizeReserveMilitary_2025": 188000,
+    "MilitarySizeParamilitary_2025": 346000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 346000
+  },
+  {
+    "flagCode": "RO",
+    "country": "Romania",
+    "MilitarySizeActiveMilitary_2025": 69900,
+    "MilitarySizeReserveMilitary_2025": 55000,
+    "MilitarySizeParamilitary_2025": 181900,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 181900
+  },
+  {
+    "flagCode": "ZA",
+    "country": "South Africa",
+    "MilitarySizeActiveMilitary_2025": 69200,
+    "MilitarySizeReserveMilitary_2025": 15050,
+    "MilitarySizeParamilitary_2025": 84250,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 84250
+  },
+  {
+    "flagCode": "CL",
+    "country": "Chile",
+    "MilitarySizeActiveMilitary_2025": 68500,
+    "MilitarySizeReserveMilitary_2025": 19100,
+    "MilitarySizeParamilitary_2025": 132300,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 132300
+  },
+  {
+    "flagCode": "AZ",
+    "country": "Azerbaijan",
+    "MilitarySizeActiveMilitary_2025": 68200,
+    "MilitarySizeReserveMilitary_2025": 300000,
+    "MilitarySizeParamilitary_2025": 383200,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 383200
+  },
+  {
+    "flagCode": "AE",
+    "country": "United Arab Emirates",
+    "MilitarySizeActiveMilitary_2025": 63000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 63000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 63000
+  },
+  {
+    "flagCode": "CA",
+    "country": "Canada",
+    "MilitarySizeActiveMilitary_2025": 62300,
+    "MilitarySizeReserveMilitary_2025": 29100,
+    "MilitarySizeParamilitary_2025": 97200,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 97200
+  },
+  {
+    "flagCode": "LB",
+    "country": "Lebanon",
+    "MilitarySizeActiveMilitary_2025": 60000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 80000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 80000
+  },
+  {
+    "flagCode": "AU",
+    "country": "Australia",
+    "MilitarySizeActiveMilitary_2025": 58540,
+    "MilitarySizeReserveMilitary_2025": 21450,
+    "MilitarySizeParamilitary_2025": 79990,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 79990
+  },
+  {
+    "flagCode": "DO",
+    "country": "Dominican Republic",
+    "MilitarySizeActiveMilitary_2025": 56800,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 71800,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 71800
+  },
+  {
+    "flagCode": "SG",
+    "country": "Singapore",
+    "MilitarySizeActiveMilitary_2025": 51000,
+    "MilitarySizeReserveMilitary_2025": 252500,
+    "MilitarySizeParamilitary_2025": 310900,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 310900
+  },
+  {
+    "flagCode": "CU",
+    "country": "Cuba",
+    "MilitarySizeActiveMilitary_2025": 49000,
+    "MilitarySizeReserveMilitary_2025": 39000,
+    "MilitarySizeParamilitary_2025": 114500,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 114500
+  },
+  {
+    "flagCode": "BY",
+    "country": "Belarus",
+    "MilitarySizeActiveMilitary_2025": 48600,
+    "MilitarySizeReserveMilitary_2025": 289500,
+    "MilitarySizeParamilitary_2025": 448100,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 448100
+  },
+  {
+    "flagCode": "UZ",
+    "country": "Uzbekistan",
+    "MilitarySizeActiveMilitary_2025": 48000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 68000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 68000
+  },
+  {
+    "flagCode": "UG",
+    "country": "Uganda",
+    "MilitarySizeActiveMilitary_2025": 45000,
+    "MilitarySizeReserveMilitary_2025": 10000,
+    "MilitarySizeParamilitary_2025": 56400,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 56400
+  },
+  {
+    "flagCode": "AM",
+    "country": "Armenia",
+    "MilitarySizeActiveMilitary_2025": 42900,
+    "MilitarySizeReserveMilitary_2025": 210000,
+    "MilitarySizeParamilitary_2025": 257200,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 257200
+  },
+  {
+    "flagCode": "OM",
+    "country": "Oman",
+    "MilitarySizeActiveMilitary_2025": 42600,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 47000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 47000
+  },
+  {
+    "flagCode": "YE",
+    "country": "Yemen",
+    "MilitarySizeActiveMilitary_2025": 40000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 40000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 40000
+  },
+  {
+    "flagCode": "EC",
+    "country": "Ecuador",
+    "MilitarySizeActiveMilitary_2025": 39600,
+    "MilitarySizeReserveMilitary_2025": 118000,
+    "MilitarySizeParamilitary_2025": 158100,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 158100
+  },
+  {
+    "flagCode": "NE",
+    "country": "Niger",
+    "MilitarySizeActiveMilitary_2025": 39100,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 87100,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 87100
+  },
+  {
+    "flagCode": "KZ",
+    "country": "Kazakhstan",
+    "MilitarySizeActiveMilitary_2025": 39000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 70500,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 70500
+  },
+  {
+    "flagCode": "BG",
+    "country": "Bulgaria",
+    "MilitarySizeActiveMilitary_2025": 36950,
+    "MilitarySizeReserveMilitary_2025": 3000,
+    "MilitarySizeParamilitary_2025": 39950,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 39950
+  },
+  {
+    "flagCode": "TM",
+    "country": "Turkmenistan",
+    "MilitarySizeActiveMilitary_2025": 36500,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 56500,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 56500
+  },
+  {
+    "flagCode": "TN",
+    "country": "Tunisia",
+    "MilitarySizeActiveMilitary_2025": 35800,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 47800,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 47800
+  },
+  {
+    "flagCode": "BO",
+    "country": "Bolivia",
+    "MilitarySizeActiveMilitary_2025": 34100,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 71200,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 71200
+  },
+  {
+    "flagCode": "NL",
+    "country": "Netherlands",
+    "MilitarySizeActiveMilitary_2025": 33650,
+    "MilitarySizeReserveMilitary_2025": 6350,
+    "MilitarySizeParamilitary_2025": 46800,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 46800
+  },
+  {
+    "flagCode": "TD",
+    "country": "Chad",
+    "MilitarySizeActiveMilitary_2025": 33250,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 45150,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 45150
+  },
+  {
+    "flagCode": "RW",
+    "country": "Rwanda",
+    "MilitarySizeActiveMilitary_2025": 33000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 35000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 35000
+  },
+  {
+    "flagCode": "HU",
+    "country": "Hungary",
+    "MilitarySizeActiveMilitary_2025": 32150,
+    "MilitarySizeReserveMilitary_2025": 20000,
+    "MilitarySizeParamilitary_2025": 52150,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 52150
+  },
+  {
+    "flagCode": "BI",
+    "country": "Burundi",
+    "MilitarySizeActiveMilitary_2025": 30050,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 31050,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 31050
+  },
+  {
+    "flagCode": "LA",
+    "country": "Laos",
+    "MilitarySizeActiveMilitary_2025": 29100,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 129100,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 129100
+  },
+  {
+    "flagCode": "ZW",
+    "country": "Zimbabwe",
+    "MilitarySizeActiveMilitary_2025": 29000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 50800,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 50800
+  },
+  {
+    "flagCode": "RS",
+    "country": "Serbia",
+    "MilitarySizeActiveMilitary_2025": 28150,
+    "MilitarySizeReserveMilitary_2025": 50150,
+    "MilitarySizeParamilitary_2025": 82000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 82000
+  },
+  {
+    "flagCode": "CI",
+    "country": "Ivory Coast",
+    "MilitarySizeActiveMilitary_2025": 27400,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 27400,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 27400
+  },
+  {
+    "flagCode": "TZ",
+    "country": "Tanzania",
+    "MilitarySizeActiveMilitary_2025": 27000,
+    "MilitarySizeReserveMilitary_2025": 80000,
+    "MilitarySizeParamilitary_2025": 108400,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 108400
+  },
+  {
+    "flagCode": "CZ",
+    "country": "Czechia",
+    "MilitarySizeActiveMilitary_2025": 26600,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 26600,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 26600
+  },
+  {
+    "flagCode": "PT",
+    "country": "Portugal",
+    "MilitarySizeActiveMilitary_2025": 26050,
+    "MilitarySizeReserveMilitary_2025": 23500,
+    "MilitarySizeParamilitary_2025": 72370,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 72370
+  },
+  {
+    "flagCode": "CM",
+    "country": "Cameroon",
+    "MilitarySizeActiveMilitary_2025": 25400,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 34400,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 34400
+  },
+  {
+    "flagCode": "NO",
+    "country": "Norway",
+    "MilitarySizeActiveMilitary_2025": 25400,
+    "MilitarySizeReserveMilitary_2025": 40000,
+    "MilitarySizeParamilitary_2025": 65400,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 65400
+  },
+  {
+    "flagCode": "KE",
+    "country": "Kenya",
+    "MilitarySizeActiveMilitary_2025": 24100,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 29100,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 29100
+  },
+  {
+    "flagCode": "FI",
+    "country": "Finland",
+    "MilitarySizeActiveMilitary_2025": 23850,
+    "MilitarySizeReserveMilitary_2025": 233000,
+    "MilitarySizeParamilitary_2025": 268850,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 268850
+  },
+  {
+    "flagCode": "BE",
+    "country": "Belgium",
+    "MilitarySizeActiveMilitary_2025": 23500,
+    "MilitarySizeReserveMilitary_2025": 5900,
+    "MilitarySizeParamilitary_2025": 29400,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 29400
+  },
+  {
+    "flagCode": "AT",
+    "country": "Austria",
+    "MilitarySizeActiveMilitary_2025": 22200,
+    "MilitarySizeReserveMilitary_2025": 109200,
+    "MilitarySizeParamilitary_2025": 131400,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 131400
+  },
+  {
+    "flagCode": "CH",
+    "country": "Switzerland",
+    "MilitarySizeActiveMilitary_2025": 21300,
+    "MilitarySizeReserveMilitary_2025": 196450,
+    "MilitarySizeParamilitary_2025": 217750,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 217750
+  },
+  {
+    "flagCode": "UY",
+    "country": "Uruguay",
+    "MilitarySizeActiveMilitary_2025": 21100,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 22500,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 22500
+  },
+  {
+    "flagCode": "ML",
+    "country": "Mali",
+    "MilitarySizeActiveMilitary_2025": 21000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 41000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 41000
+  },
+  {
+    "flagCode": "GE",
+    "country": "Georgia",
+    "MilitarySizeActiveMilitary_2025": 20650,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 26050,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 26050
+  },
+  {
+    "flagCode": "GH",
+    "country": "Ghana",
+    "MilitarySizeActiveMilitary_2025": 19000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 19000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 19000
+  },
+  {
+    "flagCode": "GT",
+    "country": "Guatemala",
+    "MilitarySizeActiveMilitary_2025": 18050,
+    "MilitarySizeReserveMilitary_2025": 63850,
+    "MilitarySizeParamilitary_2025": 106900,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 106900
+  },
+  {
+    "flagCode": "KW",
+    "country": "Kuwait",
+    "MilitarySizeActiveMilitary_2025": 17500,
+    "MilitarySizeReserveMilitary_2025": 23700,
+    "MilitarySizeParamilitary_2025": 48300,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 48300
+  },
+  {
+    "flagCode": "ZM",
+    "country": "Zambia",
+    "MilitarySizeActiveMilitary_2025": 17100,
+    "MilitarySizeReserveMilitary_2025": 3000,
+    "MilitarySizeParamilitary_2025": 21500,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 21500
+  },
+  {
+    "flagCode": "HR",
+    "country": "Croatia",
+    "MilitarySizeActiveMilitary_2025": 16800,
+    "MilitarySizeReserveMilitary_2025": 2100,
+    "MilitarySizeParamilitary_2025": 18900,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 18900
+  },
+  {
+    "flagCode": "QA",
+    "country": "Qatar",
+    "MilitarySizeActiveMilitary_2025": 16500,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 21500,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 21500
+  },
+  {
+    "flagCode": "LT",
+    "country": "Lithuania",
+    "MilitarySizeActiveMilitary_2025": 16100,
+    "MilitarySizeReserveMilitary_2025": 12950,
+    "MilitarySizeParamilitary_2025": 47450,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 47450
+  },
+  {
+    "flagCode": "BT",
+    "country": "Bhutan",
+    "MilitarySizeActiveMilitary_2025": 16000,
+    "MilitarySizeReserveMilitary_2025": 60000,
+    "MilitarySizeParamilitary_2025": 76000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 76000
+  },
+  {
+    "flagCode": "MR",
+    "country": "Mauritania",
+    "MilitarySizeActiveMilitary_2025": 15850,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 20850,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 20850
+  },
+  {
+    "flagCode": "SK",
+    "country": "Slovakia",
+    "MilitarySizeActiveMilitary_2025": 15850,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 15850,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 15850
+  },
+  {
+    "flagCode": "HN",
+    "country": "Honduras",
+    "MilitarySizeActiveMilitary_2025": 14950,
+    "MilitarySizeReserveMilitary_2025": 60000,
+    "MilitarySizeParamilitary_2025": 82950,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 82950
+  },
+  {
+    "flagCode": "SE",
+    "country": "Sweden",
+    "MilitarySizeActiveMilitary_2025": 14850,
+    "MilitarySizeReserveMilitary_2025": 21500,
+    "MilitarySizeParamilitary_2025": 57850,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 57850
+  },
+  {
+    "flagCode": "PY",
+    "country": "Paraguay",
+    "MilitarySizeActiveMilitary_2025": 13950,
+    "MilitarySizeReserveMilitary_2025": 164500,
+    "MilitarySizeParamilitary_2025": 193250,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 193250
+  },
+  {
+    "flagCode": "SO",
+    "country": "Somalia",
+    "MilitarySizeActiveMilitary_2025": 13900,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 13900,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 13900
+  },
+  {
+    "flagCode": "TG",
+    "country": "Togo",
+    "MilitarySizeActiveMilitary_2025": 13750,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 18750,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 18750
+  },
+  {
+    "flagCode": "SN",
+    "country": "Senegal",
+    "MilitarySizeActiveMilitary_2025": 13600,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 18600,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 18600
+  },
+  {
+    "flagCode": "MG",
+    "country": "Madagascar",
+    "MilitarySizeActiveMilitary_2025": 13500,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 21600,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 21600
+  },
+  {
+    "flagCode": "DK",
+    "country": "Denmark",
+    "MilitarySizeActiveMilitary_2025": 13100,
+    "MilitarySizeReserveMilitary_2025": 44200,
+    "MilitarySizeParamilitary_2025": 57300,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 57300
+  },
+  {
+    "flagCode": "BJ",
+    "country": "Benin",
+    "MilitarySizeActiveMilitary_2025": 12300,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 17100,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 17100
+  },
+  {
+    "flagCode": "NI",
+    "country": "Nicaragua",
+    "MilitarySizeActiveMilitary_2025": 12000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 12000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 12000
+  },
+  {
+    "flagCode": "CY",
+    "country": "Cyprus",
+    "MilitarySizeActiveMilitary_2025": 12000,
+    "MilitarySizeReserveMilitary_2025": 60000,
+    "MilitarySizeParamilitary_2025": 72000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 72000
+  },
+  {
+    "flagCode": "NA",
+    "country": "Namibia",
+    "MilitarySizeActiveMilitary_2025": 11600,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 17600,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 17600
+  },
+  {
+    "flagCode": "MZ",
+    "country": "Mozambique",
+    "MilitarySizeActiveMilitary_2025": 11200,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 11200,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 11200
+  },
+  {
+    "flagCode": "KG",
+    "country": "Kyrgyzstan",
+    "MilitarySizeActiveMilitary_2025": 10900,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 20400,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 20400
+  },
+  {
+    "flagCode": "MW",
+    "country": "Malawi",
+    "MilitarySizeActiveMilitary_2025": 10700,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 14900,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 14900
+  },
+  {
+    "flagCode": "BA",
+    "country": "Bosnia and Herzegovina",
+    "MilitarySizeActiveMilitary_2025": 10650,
+    "MilitarySizeReserveMilitary_2025": 6000,
+    "MilitarySizeParamilitary_2025": 16650,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 16650
+  },
+  {
+    "flagCode": "CG",
+    "country": "Republic of the Congo",
+    "MilitarySizeActiveMilitary_2025": 10000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 13500,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 13500
+  },
+  {
+    "flagCode": "GN",
+    "country": "Guinea",
+    "MilitarySizeActiveMilitary_2025": 9700,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 12300,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 12300
+  },
+  {
+    "flagCode": "MN",
+    "country": "Mongolia",
+    "MilitarySizeActiveMilitary_2025": 9700,
+    "MilitarySizeReserveMilitary_2025": 137000,
+    "MilitarySizeParamilitary_2025": 154200,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 154200
+  },
+  {
+    "flagCode": "IE",
+    "country": "Ireland",
+    "MilitarySizeActiveMilitary_2025": 9500,
+    "MilitarySizeReserveMilitary_2025": 4050,
+    "MilitarySizeParamilitary_2025": 13550,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 13550
+  },
+  {
+    "flagCode": "CF",
+    "country": "Central African Republic",
+    "MilitarySizeActiveMilitary_2025": 9150,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 10150,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 10150
+  },
+  {
+    "flagCode": "BW",
+    "country": "Botswana",
+    "MilitarySizeActiveMilitary_2025": 9000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 9000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 9000
+  },
+  {
+    "flagCode": "TJ",
+    "country": "Tajikistan",
+    "MilitarySizeActiveMilitary_2025": 8800,
+    "MilitarySizeReserveMilitary_2025": 20000,
+    "MilitarySizeParamilitary_2025": 36300,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 36300
+  },
+  {
+    "flagCode": "NZ",
+    "country": "New Zealand",
+    "MilitarySizeActiveMilitary_2025": 8700,
+    "MilitarySizeReserveMilitary_2025": 3270,
+    "MilitarySizeParamilitary_2025": 11970,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 11970
+  },
+  {
+    "flagCode": "SL",
+    "country": "Sierra Leone",
+    "MilitarySizeActiveMilitary_2025": 8500,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 8500,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 8500
+  },
+  {
+    "flagCode": "DJ",
+    "country": "Djibouti",
+    "MilitarySizeActiveMilitary_2025": 8450,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 13100,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 13100
+  },
+  {
+    "flagCode": "BH",
+    "country": "Bahrain",
+    "MilitarySizeActiveMilitary_2025": 8200,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 19460,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 19460
+  },
+  {
+    "flagCode": "MK",
+    "country": "North Macedonia",
+    "MilitarySizeActiveMilitary_2025": 8000,
+    "MilitarySizeReserveMilitary_2025": 4850,
+    "MilitarySizeParamilitary_2025": 20450,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 20450
+  },
+  {
+    "flagCode": "AL",
+    "country": "Albania",
+    "MilitarySizeActiveMilitary_2025": 7500,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 7500,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 7500
+  },
+  {
+    "flagCode": "BN",
+    "country": "Brunei",
+    "MilitarySizeActiveMilitary_2025": 7200,
+    "MilitarySizeReserveMilitary_2025": 700,
+    "MilitarySizeParamilitary_2025": 8350,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 8350
+  },
+  {
+    "flagCode": "EE",
+    "country": "Estonia",
+    "MilitarySizeActiveMilitary_2025": 7100,
+    "MilitarySizeReserveMilitary_2025": 41200,
+    "MilitarySizeParamilitary_2025": 69500,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 69500
+  },
+  {
+    "flagCode": "BF",
+    "country": "Burkina Faso",
+    "MilitarySizeActiveMilitary_2025": 7000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 11450,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 11450
+  },
+  {
+    "flagCode": "LV",
+    "country": "Latvia",
+    "MilitarySizeActiveMilitary_2025": 6600,
+    "MilitarySizeReserveMilitary_2025": 16000,
+    "MilitarySizeParamilitary_2025": 22600,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 22600
+  },
+  {
+    "flagCode": "SI",
+    "country": "Slovenia",
+    "MilitarySizeActiveMilitary_2025": 6200,
+    "MilitarySizeReserveMilitary_2025": 950,
+    "MilitarySizeParamilitary_2025": 7150,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 7150
+  },
+  {
+    "flagCode": "JM",
+    "country": "Jamaica",
+    "MilitarySizeActiveMilitary_2025": 5950,
+    "MilitarySizeReserveMilitary_2025": 2580,
+    "MilitarySizeParamilitary_2025": 8530,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 8530
+  },
+  {
+    "flagCode": "MD",
+    "country": "Moldova",
+    "MilitarySizeActiveMilitary_2025": 5150,
+    "MilitarySizeReserveMilitary_2025": 58000,
+    "MilitarySizeParamilitary_2025": 64050,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 64050
+  },
+  {
+    "flagCode": "GA",
+    "country": "Gabon",
+    "MilitarySizeActiveMilitary_2025": 4700,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 6700,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 6700
+  },
+  {
+    "flagCode": "GW",
+    "country": "Guinea-Bissau",
+    "MilitarySizeActiveMilitary_2025": 4450,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 4450,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 4450
+  },
+  {
+    "flagCode": "GM",
+    "country": "Gambia",
+    "MilitarySizeActiveMilitary_2025": 4100,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 4100,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 4100
+  },
+  {
+    "flagCode": "TT",
+    "country": "Trinidad and Tobago",
+    "MilitarySizeActiveMilitary_2025": 4050,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 4050,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 4050
+  },
+  {
+    "flagCode": "FJ",
+    "country": "Fiji",
+    "MilitarySizeActiveMilitary_2025": 4040,
+    "MilitarySizeReserveMilitary_2025": 6000,
+    "MilitarySizeParamilitary_2025": 10040,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 10040
+  },
+  {
+    "flagCode": "PG",
+    "country": "Papua New Guinea",
+    "MilitarySizeActiveMilitary_2025": 4000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 4000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 4000
+  },
+  {
+    "flagCode": "MV",
+    "country": "Maldives",
+    "MilitarySizeActiveMilitary_2025": 4000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 4000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 4000
+  },
+  {
+    "flagCode": "GY",
+    "country": "Guyana",
+    "MilitarySizeActiveMilitary_2025": 3400,
+    "MilitarySizeReserveMilitary_2025": 670,
+    "MilitarySizeParamilitary_2025": 4070,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 4070
+  },
+  {
+    "flagCode": "SZ",
+    "country": "Eswatini",
+    "MilitarySizeActiveMilitary_2025": 3000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 3000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 3000
+  },
+  {
+    "flagCode": "ME",
+    "country": "Montenegro",
+    "MilitarySizeActiveMilitary_2025": 2885,
+    "MilitarySizeReserveMilitary_2025": 2800,
+    "MilitarySizeParamilitary_2025": 9785,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 9785
+  },
+  {
+    "flagCode": "SV",
+    "country": "El Salvador",
+    "MilitarySizeActiveMilitary_2025": 2600,
+    "MilitarySizeReserveMilitary_2025": 9900,
+    "MilitarySizeParamilitary_2025": 15100,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 15100
+  },
+  {
+    "flagCode": "TL",
+    "country": "Timor-Leste",
+    "MilitarySizeActiveMilitary_2025": 2250,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 2250,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 2250
+  },
+  {
+    "flagCode": "LR",
+    "country": "Liberia",
+    "MilitarySizeActiveMilitary_2025": 2010,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 2010,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 2010
+  },
+  {
+    "flagCode": "LS",
+    "country": "Lesotho",
+    "MilitarySizeActiveMilitary_2025": 2000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 2000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 2000
+  },
+  {
+    "flagCode": "BZ",
+    "country": "Belize",
+    "MilitarySizeActiveMilitary_2025": 2000,
+    "MilitarySizeReserveMilitary_2025": 850,
+    "MilitarySizeParamilitary_2025": 3480,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 3480
+  },
+  {
+    "flagCode": "SR",
+    "country": "Suriname",
+    "MilitarySizeActiveMilitary_2025": 1840,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 1840,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 1840
+  },
+  {
+    "flagCode": "GQ",
+    "country": "Equatorial Guinea",
+    "MilitarySizeActiveMilitary_2025": 1750,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 1750,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 1750
+  },
+  {
+    "flagCode": "MT",
+    "country": "Malta",
+    "MilitarySizeActiveMilitary_2025": 1700,
+    "MilitarySizeReserveMilitary_2025": 260,
+    "MilitarySizeParamilitary_2025": 1960,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 1960
+  },
+  {
+    "flagCode": "BS",
+    "country": "Bahamas",
+    "MilitarySizeActiveMilitary_2025": 1500,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 1500,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 1500
+  },
+  {
+    "flagCode": "CV",
+    "country": "Cape Verde",
+    "MilitarySizeActiveMilitary_2025": 1200,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 1200,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 1200
+  },
+  {
+    "flagCode": "LU",
+    "country": "Luxembourg",
+    "MilitarySizeActiveMilitary_2025": 1100,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 1100,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 1100
+  },
+  {
+    "flagCode": "KM",
+    "country": "Comoros",
+    "MilitarySizeActiveMilitary_2025": 1000,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 1000,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 1000
+  },
+  {
+    "flagCode": "TO",
+    "country": "Tonga",
+    "MilitarySizeActiveMilitary_2025": 750,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 750,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 750
+  },
+  {
+    "flagCode": "HT",
+    "country": "Haiti",
+    "MilitarySizeActiveMilitary_2025": 700,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 9700,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 9700
+  },
+  {
+    "flagCode": "BB",
+    "country": "Barbados",
+    "MilitarySizeActiveMilitary_2025": 610,
+    "MilitarySizeReserveMilitary_2025": 430,
+    "MilitarySizeParamilitary_2025": 1040,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 1040
+  },
+  {
+    "flagCode": "SM",
+    "country": "San Marino",
+    "MilitarySizeActiveMilitary_2025": 445,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 445,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 445
+  },
+  {
+    "flagCode": "SC",
+    "country": "Seychelles",
+    "MilitarySizeActiveMilitary_2025": 420,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 420,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 420
+  },
+  {
+    "flagCode": "KN",
+    "country": "Saint Kitts and Nevis",
+    "MilitarySizeActiveMilitary_2025": 300,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 300,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 300
+  },
+  {
+    "flagCode": "MC",
+    "country": "Monaco",
+    "MilitarySizeActiveMilitary_2025": 250,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 250,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 250
+  },
+  {
+    "flagCode": "AG",
+    "country": "Antigua and Barbuda",
+    "MilitarySizeActiveMilitary_2025": 200,
+    "MilitarySizeReserveMilitary_2025": 80,
+    "MilitarySizeParamilitary_2025": 280,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 280
+  },
+  {
+    "flagCode": "CR",
+    "country": "Costa Rica",
+    "MilitarySizeActiveMilitary_2025": null,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 9950,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 9950
+  },
+  {
+    "flagCode": "PA",
+    "country": "Panama",
+    "MilitarySizeActiveMilitary_2025": null,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 27700,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 27700
+  },
+  {
+    "flagCode": "MU",
+    "country": "Mauritius",
+    "MilitarySizeActiveMilitary_2025": null,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 2550,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 2550
+  },
+  {
+    "flagCode": "IS",
+    "country": "Iceland",
+    "MilitarySizeActiveMilitary_2025": null,
+    "MilitarySizeReserveMilitary_2025": null,
+    "MilitarySizeParamilitary_2025": 250,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 250
+  },
+  {
+    "flagCode": null,
+    "country": "Total",
+    "MilitarySizeActiveMilitary_2025": 20522090,
+    "MilitarySizeReserveMilitary_2025": 22933840,
+    "MilitarySizeParamilitary_2025": 60250440,
+    "MilitarySizeTotalMilitaryPersonnel_2025": 60250440
+  }
+]

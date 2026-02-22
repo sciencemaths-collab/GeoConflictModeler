@@ -4,9 +4,9 @@ __pycache__/
 .venv/
 
 # Data (large)
-app/data/*.xlsx
-app/data/*.json
-app/data/*.csv
+!app/data/*.xlsx
+!app/data/*.json
+!app/data/*.csv
 
 # Secrets
 .env
