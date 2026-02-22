@@ -8,7 +8,6 @@ services:
   - type: web
     name: geoconflictmodeler-site
     runtime: static
-    plan: free
     rootDir: site
     buildCommand: "true"
     staticPublishPath: .
@@ -58,13 +57,11 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0
     envVars:
-      # Turn on paywall when ready
       - key: GCM_REQUIRE_PAID
         value: "0"
-      # Set to API base URL when enabling gate (e.g., https://api.yourdomain.com)
       - key: GCM_API_BASE_URL
         sync: false
 
 databases:
   - name: geoconflictmodeler-db
-    plan: starter
+    plan: basic-256mb
